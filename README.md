@@ -1,4 +1,4 @@
-# Generative-AI Career Guidance Platform
+# Pathly-AI Career Guidance Platform
 
 ## Introduction
 This project is an AI-powered career guidance platform that helps users explore career paths, get personalized roadmaps, and receive AI-driven career advice. The platform is designed to assist various user types including students, freelancers, professionals, and career shifters in making informed decisions about their career paths.
