@@ -38,8 +38,8 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/harshita-2005/Generative-AI.git
-cd Generative-AI
+git clone https://github.com/harshita-2005/Pathly.git
+cd Pathly
 ```
 
 2. Create and activate a virtual environment:
