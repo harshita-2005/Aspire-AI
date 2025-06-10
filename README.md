@@ -59,7 +59,7 @@ Create a `.env` file in the root directory with necessary configurations.
 5. Run the application:
 ```bash
 cd src
-python app.py
+python3 app.py
 ```
 
 ## Usage Flow
