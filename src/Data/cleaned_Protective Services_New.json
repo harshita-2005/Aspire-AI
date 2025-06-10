@@ -1,0 +1,4094 @@
+[
+    {
+        "title": "Security Officer",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "A security guard is tasked with patrolling a specific area and performing a wide variety of security-related tasks within that area.  Some of their regular tasks include maintaining the security and safety of individuals on a property, maintaining the security and safety of the premises to which the guard is assigned, responding to threatening situations such as bomb threats, and responding to medical emergencies and maintaining supervision of the site during the emergency. They also respond to fire alarms and intrusion alarms, facilitate the performance of duties of emergency specialists who show up during an incident, and fill out paperwork related to the incidents the security guard encounters.",
+            "While the security guard's tasks include managing high-danger situations, these events often have a low probability of occurring, especially on a regular basis. The most common day-to-day task the guard performs are patrolling a property, ensuring their presence helps deter crime and malicious behavior, and otherwise pleasantly greeting customers and visitors.",
+            "Security guards usually patrol a property on their feet or in a motorized vehicle, so the ability to conduct a patrol within the company's regulations is necessary. A high school diploma or equivalent is generally required, as is a clean criminal history. "
+        ],
+        "keycompetencies": [
+            "Inspecting and patrolling premises regularly.",
+            "Monitoring surveillance cameras and reporting suspicious behavior.",
+            "Communicating with law enforcement, fire departments, and emergency medical personnel.",
+            "Monitoring public access and ensuring the security of all personnel and visitors."
+        ],
+        "scholarships": [
+            {
+                "name": "Security and Safety Scholarship",
+                "provider": "National Institute of Construction Management and Research",
+                "amount": 50000,
+                "eligibility": "Students pursuing a degree in security and safety related fields"
+            },
+            {
+                "name": "Emergency Management Scholarship",
+                "provider": "Indian Institute of Emergency Management",
+                "amount": 60000,
+                "eligibility": "Students pursuing a degree in emergency management related fields"
+            }
+        ],
+        "training": [
+            {
+                "name": "Security and Safety Training",
+                "provider": "National Safety Council India",
+                "duration": "2 weeks",
+                "cost": 12000
+            },
+            {
+                "name": "Emergency Management Training",
+                "provider": "Indian Institute of Emergency Management",
+                "duration": "3 weeks",
+                "cost": 15000
+            }
+        ],
+        "skills": [
+            {
+                "Surveillance": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Incident response": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Communication": {
+                    "score": 70,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Customer service": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Crisis management": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Report writing": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Physical security": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Access control": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "First aid": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Self-defense": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Security Officer": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Senior Security Officer": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Lead Security Officer": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Director of Security": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Chief Security Officer": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA LLB",
+                "MA Criminology"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Criminology"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Jamia Millia Islamia",
+                "Tata Institute of Social Sciences"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "Certified Security Professional",
+                "provider": "National Institute of Construction Management and Research",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Fire Safety Professional",
+                "provider": "Indian Society of Fire Engineers",
+                "duration": 4,
+                "cost": 18000
+            },
+            {
+                "name": "Certified Emergency Management Professional",
+                "provider": "National Institute of Disaster Management",
+                "duration": 6,
+                "cost": 28000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Critical Thinking",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Security Officer",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Security Officer",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Security Officer",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Security Services"
+    },
+    {
+        "title": "Police Officer",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "A police officer is part of one of the three areas of our criminal justice system. Members of the police force are responsible for enforcing the law. An officer will patrol neighborhoods to deter criminal activity as well as monitor any threat to public safety. A police officer will respond to incidents and complaints reported to the police department, document interactions with suspects, victims, and witnesses, and collect evidence at the scene of the crime. Police officers arrest offenders and suspects, collect evidence from them, and testify in court about cases in which they were involved. A member of the police force will also work with the community to coordinate community service events and outreach programs and to offer educational services to the neighborhoods the officer patrols. A police officer must complete the police academy training program, and quite often a certificate or degree in a criminal justice program is required. People applying to join the police force must pass a strict background check including their criminal history, driving record, and credit reports, in order to ensure that all members of the police force are upstanding members of society who will be a good fit with the community. A police officer must be in and remain in good physical condition, as the job may sometimes require strenuous physical activity. Hours for the position vary and are subject to changes based on the availability of other employees, and quite often a police officer will work night shifts and weekends."
+        ],
+        "keycompetencies": [
+            "Patrol neighborhoods to prevent and stop crimes and threats to safety.",
+            "Coordinate community work and outreach and offer educational services.",
+            "Arrest offenders and suspects, collect evidence, and testify about cases.",
+            "Respond to incidents and complaints, document interactions, and collect evidence."
+        ],
+        "scholarships": [
+            {
+                "name": "Police Scholarship Scheme",
+                "provider": "Government of India",
+                "amount": 200000,
+                "eligibility": "Eligibility criteria"
+            },
+            {
+                "name": "Forensic Science Scholarship",
+                "provider": "National Forensic Science University",
+                "amount": 150000,
+                "eligibility": "Eligibility criteria"
+            }
+        ],
+        "training": [
+            {
+                "name": "Police Training Programme",
+                "provider": "State Police Training College",
+                "duration": "6 months",
+                "cost": 10000
+            },
+            {
+                "name": "Investigation Techniques Training",
+                "provider": "National Investigation Agency",
+                "duration": "3 months",
+                "cost": 12000
+            }
+        ],
+        "skills": [
+            {
+                "Physical fitness": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Emergency response": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Firearms proficiency": {
+                    "score": 70,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Surveillance and observation": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Investigation and interrogation": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Traffic control": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Communication and public relations": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Self-defense": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "First aid and CPR": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Report writing": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Police Officer": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Senior Police Officer": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Police Officer IV": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Deputy Chief Police Officer": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Chief Police Officer": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BA LLB",
+                "BSc"
+            ],
+            "specializations": [
+                "Forensic Science",
+                "Criminology",
+                "Law Enforcement"
+            ],
+            "institutions": [
+                "NIT Delhi",
+                "Amity Law School",
+                "University of Delhi"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "Forensic Science Certification",
+                "provider": "National Forensic Science University",
+                "duration": 6,
+                "cost": 12000
+            },
+            {
+                "name": "Crisis Management Certification",
+                "provider": "Indian Institute of Public Administration",
+                "duration": 3,
+                "cost": 15000
+            },
+            {
+                "name": "Police Procedural Law Certification",
+                "provider": "National Law University",
+                "duration": 4,
+                "cost": 18000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Leadership",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Police Officer",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Police Officer",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Police Officer",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Law Enforcement"
+    },
+    {
+        "title": "Immigration Officer",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Immigration officers work within a government agency, particularly the Department of Homeland Security, to assess various aspects of immigration procedures, as well as research and analyze U.S. immigration laws, regulations, and procedures and interpret and apply them to individual cases and visa applications. They typically use departmental guidance, legal databases, and other research tools to fulfill their tasks.",
+            "Immigration officers can expect to work regularly with departmental supervisors, a set of colleagues, department support staff, and would-be and current immigrants. Indeed, much of their job involves processing visas and other residency applications for immigrants and processing their paperwork to determine their needs and whether they will obtain immigration rights according to current laws and regulations.",
+            "Immigration officers can also expect to work directly with law enforcement officials to assist in apprehending individuals in violation of immigration laws. Some may be tasked with helping coordinate information with state and/or federal authorities to ensure that national security is protected and terrorism and illegal trafficking are prevented. Due to the complicated research and analysis in this work, a bachelor's degree is generally required for this position, and prior clerical and research experience in a professional setting may also be required."
+        ],
+        "keycompetencies": [
+            "Check documents and paper to ensure proper documentation.",
+            "Ensure any person denied entry returns or is detained.",
+            "Process and grant or deny visa requests.",
+            "Determine acceptability of visa, travel, asylum and other requests."
+        ],
+        "scholarships": [
+            {
+                "name": "Prime Minister's Scholarship Scheme",
+                "provider": "Government of India",
+                "amount": 50000,
+                "eligibility": "Eligibility criteria: Students pursuing higher education in Immigration Law and Policy"
+            },
+            {
+                "name": "Indian Council for Cultural Relations Scholarship",
+                "provider": "Indian Council for Cultural Relations",
+                "amount": 30000,
+                "eligibility": "Eligibility criteria: Students pursuing higher education in International Relations and Diplomacy"
+            }
+        ],
+        "training": [
+            {
+                "name": "Immigration Law and Policy Training",
+                "provider": "Indian Institute of International Law",
+                "duration": "1 month",
+                "cost": 15000
+            },
+            {
+                "name": "Diplomatic Skills and Protocol Training",
+                "provider": "Indian Institute of Diplomacy and International Relations",
+                "duration": "3 months",
+                "cost": 25000
+            }
+        ],
+        "skills": [
+            {
+                "People Management": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Oral / Verbal Communication": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Administration": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "true"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Immigration Officer": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Senior Immigration Officer": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Supervisory Immigration Officer": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Immigration Manager": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "MA/MSW"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Public Administration",
+                "International Relations"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "JNU",
+                "Manipal University"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "Certification in Immigration Law",
+                "provider": "National Law University",
+                "duration": 6,
+                "cost": 30000
+            },
+            {
+                "name": "Certified Diplomat",
+                "provider": "Indian Institute of Diplomacy and International Relations",
+                "duration": 3,
+                "cost": 20000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Immigration Officer",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Immigration Officer",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Immigration Officer",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Law Enforcement"
+    },
+    {
+        "title": "Background Investigator",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Background investigator may conduct a wide range of investigative duties depending on their employer. Some investigators perform basic background checks for companies, such as searching for felony convictions and outstanding debts; government background investigators handle background checks for security clearances. Background investigators spend a substantial amount of time working with public databases and interviewing people to get information on the applicant. Thus, much of the investigators time may be spent traveling to interview subjects in person. When not traveling, an investigator works in an office doing research on public databases or on the phone doing interviews.",
+            "Background investigators generally must have a bachelor's degree and (if they are conducting security clearances) pass their own security check. An additional requirement for background investigators include the ability to regularly pass drug screenings, as well as the ability to pass a polygraph examination and have their financial data evaluated for any potential risks for bribery (such as bankruptcies or gambling debts) and peculiar purchases (such as large cash purchases beyond the investigator\u2019s current salary).",
+            "Investigators are expected to work in many locations, including in an office setting and traveling to conduct interviews. Most tasks are done by a single investigator, but sometimes teams are tasked with investigating a high-priority subject."
+        ],
+        "keycompetencies": [
+            "Obtain necessary background reports and files.",
+            "Investigate subjects' background and character through different sources including interviews.",
+            "File reports, track pending reports.",
+            "Prepare reports in compliance with organization/federal guidelines."
+        ],
+        "scholarships": [
+            {
+                "name": "Indian Government Scholarship",
+                "provider": "Indian Government",
+                "amount": 50000,
+                "eligibility": "Eligibility criteria: Indian citizens, pursuing a degree in relevant field, good academic record"
+            },
+            {
+                "name": "Indian Institute of Security and Law Scholarship",
+                "provider": "Indian Institute of Security and Law",
+                "amount": 30000,
+                "eligibility": "Eligibility criteria: Indian citizens, pursuing a degree in relevant field, good academic record"
+            }
+        ],
+        "training": [
+            {
+                "name": "Background Investigation Training",
+                "provider": "Indian Security and Law Institute",
+                "duration": "3 months",
+                "cost": 15000
+            },
+            {
+                "name": "Cyber Security Awareness Training",
+                "provider": "Cyber Security Awareness India",
+                "duration": "2 months",
+                "cost": 10000
+            }
+        ],
+        "skills": [
+            {
+                "Strong research and analytical skills": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Excellent communication and interpersonal skills": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Time management and organizational skills": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of legal and regulatory requirements": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Familiarity with various databases and online research tools": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong interview and investigation skills": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of computer systems and databases": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Familiarity with security protocols": {
+                    "score": 20,
+                    "popular": "false",
+                    "important": "true"
+                }
+            },
+            {
+                "Knowledge of foreign languages": {
+                    "score": 40,
+                    "popular": "false",
+                    "important": "true"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Investigator": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "Senior Investigator": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Investigator IV": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Principal Investigator": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Senior Principal Investigator": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA LLB"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Criminology",
+                "Law"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Delhi University",
+                "Anna University"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "Certified Background Investigator",
+                "provider": "Indian Institute of Security and Law",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Cyber Security Professional",
+                "provider": "Cyber Security Awareness India",
+                "duration": 3,
+                "cost": 15000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Background Investigator",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Background Investigator",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Background Investigator",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Correctional Services"
+    },
+    {
+        "title": "First-Line Supervisor / Manager of Fire Fighting and Prevention Workers",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "First-line supervisors/managers of fire fighting and prevention workers are responsible for overseeing fire fighting personnel and implementing strategies to effectively respond to emergencies, as well as providing technical assistance, feedback, and mentoring for new fire fighters and other staff. These supervisors must verify that all equipment works correctly and adheres to federal regulations, and they typically work in an office environment as well as in the field.",
+            "These managers must have leadership skills to motivate and help fire fighters through emergency situations, and they must work well in a team setting and assist with managing resources to complete all tasks in a timely manner. They may work in a fast-paced environment and must follow strict safety guidelines to prevent accidents, and they may also receive ongoing training in new methods to motivate and become more effective in dealing with tragic circumstances. They also prevent new emergencies by educating the general public and fire fighters to reduce the risks of fires and other dangers.",
+            "Strong communication skills are necessary in this position to delegate responsibilities, and multitasking is also important to handle a variety of projects at once. These supervisors must ensure that all personnel complete their daily tasks in a timely manner, and they also help with managing new supplies and distributing items as necessary. A high school diploma is required for this position, and prior fire fighting or managerial experience is highly beneficial. Industry certifications are also helpful."
+        ],
+        "keycompetencies": [
+            "Assign firefighters to jobs at strategic locations to facilitate rescue of persons and maximize application of extinguishing agents.",
+            "Communicate fire details to superiors, subordinates, or interagency dispatch centers, using two-way radios.",
+            "Direct firefighters in station maintenance duties, and participate in these duties."
+        ],
+        "scholarships": [
+            {
+                "name": "Fire Safety Scholarship",
+                "provider": "Indian Institution of Fire Safety Engineers",
+                "amount": 50000,
+                "eligibility": "Eligibility criteria: Students pursuing BE/BTech in Fire Engineering or related fields"
+            },
+            {
+                "name": "OSHA Scholarship",
+                "provider": "Occupational Safety, Health and Environmental Management Association of India",
+                "amount": 30000,
+                "eligibility": "Eligibility criteria: Students pursuing BE/BTech in related fields"
+            }
+        ],
+        "training": [
+            {
+                "name": "Fire Safety Management Training",
+                "provider": "Indian Institution of Fire Safety Engineers",
+                "duration": "3 months",
+                "cost": 15000
+            },
+            {
+                "name": "Emergency Response Planning Training",
+                "provider": "Occupational Safety, Health and Environmental Management Association of India",
+                "duration": "6 months",
+                "cost": 30000
+            }
+        ],
+        "skills": [
+            {
+                "Strong leadership and management skills": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of firefighting and fire prevention techniques": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of firefighting equipment and apparatus": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong communication and interpersonal skills": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of OSHA and other safety regulations": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Budgeting and financial management skills": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Emergency management and incident command": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong problem-solving and decision-making skills": {
+                    "score": 20,
+                    "popular": "false",
+                    "important": "true"
+                }
+            },
+            {
+                "Familiarity with relevant technology and software": {
+                    "score": 40,
+                    "popular": "false",
+                    "important": "true"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Fire Chief": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Director of Fire Services": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NIT Trichy",
+                "Anna University"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "OSHA Certification",
+                "provider": "Occupational Safety, Health and Environmental Management Association of India",
+                "duration": 3,
+                "cost": 12000
+            },
+            {
+                "name": "NFPA Certification",
+                "provider": "National Fire Protection Association",
+                "duration": 6,
+                "cost": 30000
+            },
+            {
+                "name": "Fire Safety Manager Certification",
+                "provider": "Indian Institution of Fire Safety Engineers",
+                "duration": 12,
+                "cost": 60000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "First-Line Supervisor / Manager of Fire Fighting and Prevention Workers",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior First-Line Supervisor / Manager of Fire Fighting and Prevention Workers",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead First-Line Supervisor / Manager of Fire Fighting and Prevention Workers",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Fire & Rescue Services"
+    },
+    {
+        "title": "Correctional Officer",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "A correctional officer works at a prison, jail, or similar institution. They are responsible for maintaining the safety and control of all persons remanded to the custody of the facility.  The help ensure and enforce all procedures and regulations as required by the jurisdiction and management.",
+            "In addition to helping to maintain order, the correctional officer also assists in performing regularly scheduled inspections of the property belonging to incarcerated persons to seek out contraband and other dangerous or banned items so they may be removed immediately. The officer must be available to help any inmate in need of first aid or similar assistance, as well as to help maintain the upkeep and sanitation of the facility; they are expected to report maintenance and repair needs to the individuals or department responsible for these areas. Much of the correctional officer\u2019s job involves writing up logs and any necessary incident reports in detail. The officer is expected to structure these reports so that senior officers or wardens can make determinations on discipline or housing as required to help maintain control and order of the facility.",
+            "Correctional officers normally have at least a high school diploma or equivalent, plus some vocational training in this specialized field or in law enforcement. Additionally, the institution or legal jurisdiction may require ongoing training related to new challenges and responses related to safe maintenance of prisoner custody.",
+            "Correctional officers work in a prison environment, which may be stressful for some workers. Because of the need for 24-hour supervision, these officers are usually scheduled for shift work and should expect that weekends and holidays will be part of the work rotation."
+        ],
+        "keycompetencies": [
+            "Following and enforcing all prison rules and regulations.",
+            "Conducting patrols and inspections of inmates' cells.",
+            "Supervising mealtimes, bathroom times, work, and recreational activities.",
+            "Screening visitors and escorting them through the facility.",
+            "Assisting with rehabilitation and counseling efforts."
+        ],
+        "scholarships": [
+            {
+                "name": "Scholarship for Correctional Administration",
+                "provider": "Indian Association of Correctional Administrators",
+                "amount": 50000,
+                "eligibility": "Students pursuing MA Criminology or MSW from recognized institutions"
+            },
+            {
+                "name": "Scholarship for Correctional Psychology",
+                "provider": "National Institute of Mental Health and Neurosciences",
+                "amount": 30000,
+                "eligibility": "Students pursuing MA Criminology or MSW from recognized institutions"
+            }
+        ],
+        "training": [
+            {
+                "name": "Training Program for Correctional Officers",
+                "provider": "National Training Institute for Correctional Administration",
+                "duration": "6 months",
+                "cost": 25000
+            },
+            {
+                "name": "Crisis Management Training",
+                "provider": "Indian Institute of Criminology and Forensic Sciences",
+                "duration": "3 months",
+                "cost": 18000
+            }
+        ],
+        "skills": [
+            {
+                "Physical fitness and stamina": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong communication and interpersonal skills": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong problem-solving and decision-making skills": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of security protocols and procedures": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of laws and regulations related to corrections": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "First aid and CPR": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong observational and surveillance skills": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Self-defense and restraint techniques": {
+                    "score": 20,
+                    "popular": "false",
+                    "important": "true"
+                }
+            },
+            {
+                "Knowledge of counseling and rehabilitation techniques": {
+                    "score": 40,
+                    "popular": "false",
+                    "important": "true"
+                }
+            },
+            {
+                "Familiarity with computer systems and databases ": {
+                    "score": 20,
+                    "popular": "false",
+                    "important": "true"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Correctional Officer": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Senior Correctional Officer": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Director of Correctional": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "Chief Correctional Officer": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BA (Hons) Criminology",
+                "MA Criminology",
+                "MSW (Master of Social Work)"
+            ],
+            "specializations": [
+                "Criminology",
+                "Forensic Science",
+                "Public Policy"
+            ],
+            "institutions": [
+                "University of Delhi",
+                "Jamia Millia Islamia",
+                "Tata Institute of Social Sciences"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "Diploma in Correctional Administration",
+                "provider": "Indian Institute of Correctional Administration",
+                "duration": 1,
+                "cost": 15000
+            },
+            {
+                "name": "Certificate in Crisis Management",
+                "provider": "Indian School of Business Management and Administration",
+                "duration": 3,
+                "cost": 20000
+            },
+            {
+                "name": "Certification in Correctional Psychology",
+                "provider": "National Institute of Mental Health and Neurosciences",
+                "duration": 6,
+                "cost": 30000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Decision Making",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Correctional Officer",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Correctional Officer",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Correctional Officer",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Correctional Services"
+    },
+    {
+        "title": "Police Investigator",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Police investigators - also called detectives in many jurisdictions - are law enforcement professionals who typically gather and analyze evidence in felony cases. In situations where the perpetrator is unknown, the investigator works to identify and narrow down likely suspects. Because of the serious nature of many of the crimes that a police investigator handles, he or she often tries to recover sufficient evidence to help a prosecutor to secure a verdict in court. In many larger police departments, it is normal for investigators to specialize in areas such as vehicular theft, cyber crime or homicides. Regardless of the specific assignments or crimes, however, many duties are the same; the investigator helps collect and analyze crime scene evidence, interviews witnesses and persons of interest, and documents all aspects of the case until an arrest is made.",
+            "Within a law enforcement department, a police investigator is typically promoted from the ranks of patrol officers, usually after extensive testing and exams. Many prospective investigators obtain training in criminology or a related field from a vocational school, community college or university. Police investigators must have an excellent ability to spot details, strong interpersonal skills and an understanding of human communication, as he or she likely interviews individuals who may be hostile to questioning and who might reveal important information. An investigator must also be able to work well in a team setting and on their own. Investigators tend to work long hours and may have irregular shift schedules; they typically spend time in the field and in an office environment."
+        ],
+        "keycompetencies": [
+            "Perform basic crime scene assessment.",
+            "Testify in court.",
+            "Investigate criminal cases, including interviewing witnesses and suspects.",
+            "Collect and analyze evidence, including prints and photographs.",
+            "Prepare and file documents, reports, and forms."
+        ],
+        "scholarships": [
+            {
+                "name": "Police Martyrs' Scholarship",
+                "provider": "Government of India",
+                "amount": 50000,
+                "eligibility": "Dependent of police personnel who have died in the line of duty"
+            },
+            {
+                "name": "National Scholarship for Police Investigation",
+                "provider": "Indian Government Ministry of Home Affairs",
+                "amount": 20000,
+                "eligibility": "Police personnel pursuing higher education in investigation-related fields"
+            }
+        ],
+        "training": [
+            {
+                "name": "Investigation Skills Development Program",
+                "provider": "Indian Police Foundation",
+                "duration": "3 months",
+                "cost": 15000
+            },
+            {
+                "name": "Forensic Science Training Program",
+                "provider": "National Forensic Science University",
+                "duration": "6 months",
+                "cost": 30000
+            }
+        ],
+        "skills": [
+            {
+                "Strong analytical and investigative skills": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong communication and interpersonal skills": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of laws and regulations related to criminal investigations": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of forensic techniques and evidence collection": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong problem-solving and decision-making skills": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Familiarity with computer systems and databases": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong observational and surveillance skills": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of interview and interrogation techniques": {
+                    "score": 20,
+                    "popular": "false",
+                    "important": "true"
+                }
+            },
+            {
+                "Knowledge of court procedures and testimony": {
+                    "score": 40,
+                    "popular": "false",
+                    "important": "true"
+                }
+            },
+            {
+                "Familiarity with security protocols and procedures": {
+                    "score": 20,
+                    "popular": "false",
+                    "important": "true"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Investigator": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "Senior Investigator": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Investigator IV": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Principal Investigator": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Senior Principal Investigator": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Anna University",
+                "VIT University"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "Certified Crime Scene Investigator (CCSI)",
+                "provider": "Indian Society of Criminology",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Forensic Analyst (CFA)",
+                "provider": "National Forensic Science University",
+                "duration": 12,
+                "cost": 45000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Police Investigator",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Police Investigator",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Police Investigator",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Law Enforcement"
+    },
+    {
+        "title": "Fire Fighter",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 280000,
+                "max": 450000
+            },
+            "mid_level": {
+                "min": 550000,
+                "max": 950000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Firefighters work for municipalities, counties, airports, and other government and private organizations, and their primary responsibility is to protect the communities they serve from various disaster situations. They extinguish fires from burning buildings, houses,  forests, cars, etc. and also serve as first responders in other emergency situations, primarily medical emergencies and rescuing pets or wounded animals.",
+            "A high school diploma or GED is a minimum requirement for this position, while some employers require an associate's degree or higher. Firefighters must be in excellent physical condition and pass background checks, drug screenings, and medical and fitness examinations, such as relevant provisions of the National Fire Protection Association Pamphlet, for the position. They should also have computer skills and be able to use relevant program applications.",
+            "Firefighters must have valid drivers' licenses and clean driving records. Before being hired, they must pass a variety of tests and should then become involved in various community programs, such as fire prevention and inspection activities. Firefighters often attend community fairs to show children and adults their fire trucks and answer their questions.",
+            "Firefighters must be flexible with their time, as fire departments must be available 24/7, and the ability to work well in a team environment is essential to succeed in the position and keep everyone safe. They must be able to work in stressful and dangerous situations, and interpersonal and communication skills are also important to ensure the safety of everyone involved. Some may occasionally travel to help fire departments in other counties or states."
+        ],
+        "keycompetencies": [
+            "Extinguish and control fires using shovels or water pumps.",
+            "Educate the general public on fire safety and prevention.",
+            "Maintain contact with emergency dispatch at all times and request additional resources as needed.",
+            "Coordinate with other firefighters as a member of the crew."
+        ],
+        "scholarships": [
+            {
+                "name": "Fire Safety Scholarship",
+                "provider": "Indian Oil Corporation Limited",
+                "amount": 40000,
+                "eligibility": "Merit-based"
+            },
+            {
+                "name": "Fire Engineering Scholarship",
+                "provider": "Government of India",
+                "amount": 60000,
+                "eligibility": "Merit-based"
+            }
+        ],
+        "training": [
+            {
+                "name": "Fire Safety Training Program",
+                "provider": "National Fire Service College",
+                "duration": "1 month",
+                "cost": 12000
+            },
+            {
+                "name": "Emergency Response Training",
+                "provider": "Indian Red Cross Society",
+                "duration": "2 weeks",
+                "cost": 8000
+            }
+        ],
+        "skills": [
+            {
+                "Physical fitness": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Emergency medical training": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Fire suppression and extinguishment": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Hazardous materials handling": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Search and rescue": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Incident command": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Communication and teamwork": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Leadership": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Technical rescue": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Wildland firefighting": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Firefighter": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Senior Firefighter": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Lead Firefighter": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "Deputy Chief Firefighter": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Chief Firefighter": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "Diploma in Fire Engineering"
+            ],
+            "specializations": [
+                "Fire Engineering",
+                "Safety Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NIFT Delhi"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Fire Fighter**",
+                "Safety Officer",
+                "Safety Manager"
+            ],
+            [
+                "**Fire Fighter**",
+                "Safety Officer",
+                "Safety Engineer"
+            ],
+            [
+                "**Fire Fighter**",
+                "Safety Officer",
+                "Environmental Health & Safety (EHS)Manager"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Fire and Safety Certification",
+                "provider": "National Fire Service College",
+                "duration": 6,
+                "cost": 35000
+            },
+            {
+                "name": "Emergency Response Certification",
+                "provider": "Indian Red Cross Society",
+                "duration": 3,
+                "cost": 20000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Fire Fighter",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 280000,
+                    "max": 450000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Fire Fighter",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 550000,
+                    "max": 950000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Fire Fighter",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Fire & Rescue Services"
+    },
+    {
+        "title": "Fire Marshal",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Fire marshals generally work for fire departments of local governments, though they may also be employed by other organizations, such as universities and corporations. Those who work for cities usually report to fire chiefs and must ensure that their organizations comply with local, state, and federal safety and environmental regulations. They may also serve as liaisons between their employers and local fire departments.",
+            "Fire marshals\u2019 duties vary depending on the size of their fire station. They manage regulatory programs related to fire prevention and emergency preparedness and also enforce fire codes and investigate causes and origins of fires. Depending on the employer, some fire marshals may be sworn law enforcement officers, and employers often require that candidates were experienced firefighters in the past, as many fire marshals have been regular firefighters who were promoted from within.",
+            "Those in this position may need to attend various community events on behalf of their fire chief or employer and make presentations to inform the public of various fire dangers and causes. They also provide and attend fire department training regularly and must know how to perform CPR and other life-saving skills.",
+            "Employers may prefer candidates who have a bachelor's degree, but prior work experience and mental and physical fitness are essential for any fire marshal. Those in this position must also stay up-to-date with a variety of techniques and technology relevant to firefighting, as well as new fire codes, and excellent leadership, communication, and public relations skills are also important."
+        ],
+        "keycompetencies": [
+            "Maintain records and prepare reports of inspections and investigations.",
+            "Conduct regular life safety inspections of community property, buildings, and facilities.",
+            "Conduct investigation of all fire incidents.  Determine the cause and origin of fires.",
+            "Maintain and enforce adherence to corporate Safety and Training policies.",
+            "Act as liaison to local fire departments, police departments, EMS, other agencies."
+        ],
+        "scholarships": [
+            {
+                "name": "Fire Safety Scholarship",
+                "provider": "Indian Association of Fire Safety",
+                "amount": 50000,
+                "eligibility": "Eligibility criteria: Students pursuing BSc in Fire Safety or related fields"
+            },
+            {
+                "name": "Fire Engineering Scholarship",
+                "provider": "Indian Institute of Fire Engineering",
+                "amount": 30000,
+                "eligibility": "Eligibility criteria: Students pursuing MSc in Fire Engineering or related fields"
+            }
+        ],
+        "training": [
+            {
+                "name": "Fire Safety Training Program",
+                "provider": "National Fire Service College",
+                "duration": "3 months",
+                "cost": 15000
+            },
+            {
+                "name": "Fire Marshal Training Program",
+                "provider": "Indian Institute of Fire Safety",
+                "duration": "6 months",
+                "cost": 20000
+            }
+        ],
+        "skills": [
+            {
+                "Fire safety knowledge and regulations": {
+                    "score": 90,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong communication and interpersonal skills": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Attention to detail": {
+                    "score": 75,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Problem-solving and critical thinking": {
+                    "score": 70,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Leadership and decision making": {
+                    "score": 65,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of building construction and codes": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong organizational skills": {
+                    "score": 55,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Physical fitness": {
+                    "score": 50,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Conflict resolution": {
+                    "score": 45,
+                    "popular": "false",
+                    "important": "true"
+                }
+            },
+            {
+                "Familiarity with fire fighting equipment and tools": {
+                    "score": 40,
+                    "popular": "false",
+                    "important": "true"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Firefighter": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Senior Firefighter": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Lead Firefighter": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "Deputy Chief Firefighter": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Chief Firefighter": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BSc in Fire Safety",
+                "MSc in Fire Engineering"
+            ],
+            "specializations": [
+                "Fire Safety Management",
+                "Fire Protection Engineering"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "NIT Trichy",
+                "Anna University"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "NFPA 101 Certification",
+                "provider": "National Fire Protection Association (NFPA)",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "IS 13256 Certification",
+                "provider": "Indian Standards Institution (ISI)",
+                "duration": 6,
+                "cost": 15000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Fire Marshal",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Fire Marshal",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Fire Marshal",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Fire & Rescue Services"
+    },
+    {
+        "title": "Constable",
+        "level": "Entry Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [],
+        "keycompetencies": [
+            "Enforcing local, state, and federal laws.",
+            "Patrolling assigned geographic zones and responding to calls.",
+            "Apprehending and transporting suspects.",
+            "Interviewing victims, witnesses, and suspects.",
+            "Gathering and logging evidence.",
+            "Writing citations, delivering warrants, and testifying in court."
+        ],
+        "scholarships": [
+            {
+                "name": "Police Merit Scholarship",
+                "provider": "Government of India",
+                "amount": 50000,
+                "eligibility": "Eligibility criteria for police personnel"
+            }
+        ],
+        "training": [
+            {
+                "name": "Police Training Program",
+                "provider": "National Police Academy of India",
+                "duration": "6 months",
+                "cost": 30000
+            },
+            {
+                "name": "Fire Safety Training",
+                "provider": "Fire and Emergency Services of India",
+                "duration": "2 weeks",
+                "cost": 10000
+            }
+        ],
+        "skills": [
+            {
+                "Emergency Response": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Security Risk Management": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Problem Solving": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Criminal": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Police Officer": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Senior Police Officer": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Police Officer IV": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Deputy Chief Police Officer": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Chief Police Officer": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA",
+                "BCom"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Criminology",
+                "Law Enforcement"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Delhi University",
+                "Mumbai University"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "SIA Certification",
+                "provider": "Security and Intelligence Agencies of India",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "FCRA Certification",
+                "provider": "Foreign Contribution Regulation Act of India",
+                "duration": 3,
+                "cost": 15000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Constable",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Constable",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Constable",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Law Enforcement"
+    },
+    {
+        "title": "Intelligence Analyst",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Intelligence analysts generally work for government agencies, and companies which work with the government, in order to provide information about security threats. Although this job involves working many hours within an office environment, it often requires on-field exploration, as well, in order to best understand situations and conduct investigations.",
+            "This job may require travel, both local and international, so flexibility with time is very important. Strong computer, research, and report-writing skills are generally required in order to carry out searches, maintain communication with employers and co-workers, and present findings to the appropriate parties. Strong written and verbal communication skills and problem-solving skills are also important.",
+            "Intelligence analysts are responsible for perusing and making sense of large amounts of data, which involves analyses such as history and statistics. All information acquired should be classified and kept confidential as necessary. Those in this position must be familiar with the necessary analysis tools and automated systems like databases, imagery analysis, and signal intelligence, and some jobs require intelligence analysts to have reached a certain level of security clearance. Aspiring intelligence analysts should receive training from an intelligence collection and analysis school and earn the proper certification. A bachelor\u2019s degree in a relevant field may also be a minimum requirement, though some employers will hire those with significant prior experience in place of a degree."
+        ],
+        "keycompetencies": [
+            "Should be multilingual.",
+            "Strong analytical skills.",
+            "Strong critical thinking skills.",
+            "Knowledge and understanding of different cultures and regions."
+        ],
+        "scholarships": [
+            {
+                "name": "National Scholarship Scheme for Intelligence Studies",
+                "provider": "Government of India",
+                "amount": 50000,
+                "eligibility": "Eligibility criteria"
+            },
+            {
+                "name": "Indian Institute of Intelligence and Security Studies Scholarship",
+                "provider": "Indian Institute of Intelligence and Security Studies",
+                "amount": 30000,
+                "eligibility": "Eligibility criteria"
+            }
+        ],
+        "training": [
+            {
+                "name": "Intelligence Analysis Training Program",
+                "provider": "National Institute of Security Studies",
+                "duration": "3 months",
+                "cost": 150000
+            },
+            {
+                "name": "Cybersecurity Training Program",
+                "provider": "Indian Institute of Technology Delhi",
+                "duration": "3 months",
+                "cost": 200000
+            }
+        ],
+        "skills": [
+            {
+                "Intelligence Analysis": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Research Analysis": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Cyber Security": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Data Analysis": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Open Source Intelligence (OSINT)": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Intelligence Analyst": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Senior Intelligence Analyst": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Intelligence Analyst IV": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Principal Intelligence Analyst": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Executive Intelligence Analyst": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA (Hons)"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Intelligence Studies",
+                "Geospatial Science"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NIT Delhi",
+                "JNU Delhi"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "Certified Information Systems Security Professional (CISSP)",
+                "provider": "International Information Systems Security Certification Consortium (ISC)\u00b2",
+                "duration": 6,
+                "cost": 250000
+            },
+            {
+                "name": "Certified Cyber Security Professional (CCSP)",
+                "provider": "International Information Systems Security Certification Consortium (ISC)\u00b2",
+                "duration": 6,
+                "cost": 200000
+            },
+            {
+                "name": "Certified Intelligence Analyst (CIA)",
+                "provider": "Indian Institute of Intelligence and Security Studies",
+                "duration": 3,
+                "cost": 150000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Critical Thinking",
+                "importance": "high"
+            },
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Intelligence Analyst",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Intelligence Analyst",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Intelligence Analyst",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Law Enforcement"
+    },
+    {
+        "title": "Armed Security Guard",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Armed security guards provide armed security for their employers, which may range from local stores to government buildings to events that will be highly populated. Armed guards also may be hired or contracted to patrol military installations.",
+            "Companies hiring armed security guards vary in their requirements but almost all of those hiring require applicants to be at least 18 years of age, hold a high school diploma or equivalent, have their own transportation, pass a drug screen and have a clean criminal background. Most companies equire a potential employee to possess and maintain a firearms license in their state before considering them for employment. Military veterans and people with prior law enforcement experience are typically given preference.",
+            "In addition, an armed security guard must be able to stand for long periods of time. They should be able to work in all types of weather conditions and temperatures. They must possess good communication skills, good vision, and the ability to write and read event logs. At times, armed security guards might have to run and handle physical and/or verbal confrontations. They must be able to evaluate (and stay calm in) stressful situations."
+        ],
+        "keycompetencies": [
+            "Start by determining what security guard skills you need to develop. A self-assessment, or self-evaluation, involves reflecting on your strengths, weaknesses, core values, and goals.",
+            "Training programs can help you develop hard skills, such as physical fitness and technology skills.",
+            "Becoming a member of security guard organizations can also help you enhance your professional skills.",
+            "As you work on your security guard skills, establish professional relationships with other security guards."
+        ],
+        "scholarships": [
+            {
+                "name": "NSG Scholarship",
+                "provider": "National Security Guard",
+                "amount": 50000,
+                "eligibility": "Eligibility criteria for students pursuing security-related courses"
+            }
+        ],
+        "training": [
+            {
+                "name": "Armed Security Guard Training",
+                "provider": "Indian Institute of Security and Safety",
+                "duration": "3 months",
+                "cost": 15000
+            }
+        ],
+        "skills": [
+            {
+                "Physical fitness": {
+                    "score": 90,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong communication and interpersonal skills": {
+                    "score": 85,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Attention to detail": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Familiarity with firearms and weapons handling": {
+                    "score": 75,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of security and surveillance procedures": {
+                    "score": 70,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong organizational skills": {
+                    "score": 65,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Conflict resolution and de-escalation techniques": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "First aid and emergency response": {
+                    "score": 55,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Attention to detail and observation skills": {
+                    "score": 50,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Familiarity with local laws and regulations regarding security and safety": {
+                    "score": 45,
+                    "popular": "true",
+                    "important": "false"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Armed Security Guard": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Security Supervisor": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Security Operations Manager": [
+                    4,
+                    5
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA/Eco"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Security Management",
+                "Criminology"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Jamia Millia Islamia",
+                "Delhi University"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "NSG Commando Course",
+                "provider": "National Security Guard",
+                "duration": 6,
+                "cost": 30000
+            },
+            {
+                "name": "Armed Security Guard Training",
+                "provider": "Indian Institute of Security and Safety",
+                "duration": 3,
+                "cost": 15000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Armed Security Guard",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Armed Security Guard",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Armed Security Guard",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Security Services"
+    },
+    {
+        "title": "Customs Officer",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "A customs officer is a specialized law enforcement official who is typically stationed in locations that people and cargo normally enter the country, such as airports, harbors and roads that cross national borders. Customs officer work to ensure that illegal cargo is not brought into the country, as well as detain and arrest individuals who may be involved in smuggling or are on watch or wanted lists.",
+            "In an airport or at a border crossing, a customs officer often works mostly with people entering the country. In these situations, the officer checks documentation and passports to determine that a person may legally enter. Typically, the officer assesses each person's identification, asks routine questions about the purpose of the visit and asks if the traveler has any items that he or she would like to declare. Some customs officers may work with contraband crews that include drug detection mechanisms such as  specially trained animals. Customs officers also check manifests of international shipping operations. Cargo must be fully disclosed and declared along its shipping route, and customs officers may perform routine inspections of arriving freight, matching it to the provided manifests before clearing and quarantining it for pickup and shipment to its end destination.",
+            "Customs officers typically undergo training that incorporates aspects of customer service and problem solving, as well as knowledge of the law and enforcement procedures. There are specialized vocational and technical schools that provide this training and perform the necessary background checks that officers need to provide in the application process."
+        ],
+        "keycompetencies": [
+            "Inspect paperwork, luggage, cargo and items to control border crossings and collect payments.",
+            "Participate in criminal proceedings and prosecution.",
+            "Confiscate items and goods, document findings and explain reasoning.",
+            "Interview people to determine their right to enter or leave a country.",
+            "Interact with the public to explain and enforce customs and laws."
+        ],
+        "scholarships": [
+            {
+                "name": "Scholarship for Customs Officers",
+                "provider": "Government of India",
+                "amount": 100000,
+                "eligibility": "Customs Officers with 3+ years of experience"
+            },
+            {
+                "name": "Scholarship for Supply Chain Management",
+                "provider": "CSCMP",
+                "amount": 50000,
+                "eligibility": "Students pursuing Supply Chain Management courses"
+            }
+        ],
+        "training": [
+            {
+                "name": "Customs Clearance and Procedures",
+                "provider": "Indian Customs Academy",
+                "duration": "1 month",
+                "cost": 15000
+            },
+            {
+                "name": "Supply Chain Management and Logistics",
+                "provider": "International Chamber of Commerce (ICC)",
+                "duration": "3 months",
+                "cost": 30000
+            }
+        ],
+        "skills": [
+            {
+                "Attention to detail": {
+                    "score": 90,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong communication and interpersonal skills": {
+                    "score": 85,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Knowledge of customs regulations and laws": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Problem-solving and critical thinking": {
+                    "score": 75,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of import and export procedures": {
+                    "score": 70,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Strong organizational skills": {
+                    "score": 65,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Familiarity with government systems and databases": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of a second language": {
+                    "score": 55,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Interpersonal skills": {
+                    "score": 50,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Physical fitness": {
+                    "score": 45,
+                    "popular": "true",
+                    "important": "false"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Customs Officer": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Customs Supervisor": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Customs Manager": [
+                    4,
+                    5
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BA LLB",
+                "MA (Economics)"
+            ],
+            "specializations": [
+                "International Business",
+                "Economics",
+                "Law"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "NLU Delhi",
+                "JNU New Delhi"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "Certified Customs Broker (CCB)",
+                "provider": "Indian Customs Education and Research Institute",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Supply Chain Professional (CSCP)",
+                "provider": "Council of Supply Chain Management Professionals (CSCMP)",
+                "duration": 12,
+                "cost": 50000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Attention to Detail",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Customs Officer",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Customs Officer",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Customs Officer",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Law Enforcement"
+    },
+    {
+        "title": "Loss Prevention Officer",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Loss prevention officers help ensure that their company does not lose merchandise or goods through theft or other means. Basic day-to-day tasks include regular patrols in the field, completion of activity and incident reports, and the maintenance of security equipment. Depending on the size of the company, interaction with a team of other officers may occur; all positions require communication with managers and customers on a regular basis. Some companies require safety training prior to taking the position, both for handling accidents and for protecting company assets. Attention to detail and the ability to carefully follow company policies and requirements at all times are crucial to success in these positions.",
+            "Risks at the job are generally minimal, though stressful situations may occur and will require quick thinking and strong judgment skills. Most work is performed in an indoor environment, although some positions require outdoor patrols. Hours vary depending on the needs of their company, with some positions including overnight shifts and others limited to regular business operating hours. Positions as a loss prevention officer are available at a wide variety of retail locations ranging from local stores to more specialized environments such as hotels.",
+            "Job requirements are generally minimal for most openings, with basic requirements including a high school diploma or equivalent and experience with alarm systems. The job also has some physical requirements, such as vision and hearing, as well as the ability to sit, stand, or walk for extended periods of time. In addition to this, communication skills and basic computer skills are necessary to complete reports."
+        ],
+        "keycompetencies": [],
+        "scholarships": [
+            {
+                "name": "National Scholarship for Security and Management Studies",
+                "provider": "Government of India",
+                "amount": 50000,
+                "eligibility": "Eligibility criteria"
+            },
+            {
+                "name": "Security and Management Scholarship",
+                "provider": "Indian Institute of Security and Management Sciences",
+                "amount": 20000,
+                "eligibility": "Eligibility criteria"
+            }
+        ],
+        "training": [
+            {
+                "name": "Loss Prevention and Security Management",
+                "provider": "Indian Institute of Security and Management Sciences",
+                "duration": "3 months",
+                "cost": 15000
+            },
+            {
+                "name": "Security and Risk Management",
+                "provider": "National Institute of Security Management",
+                "duration": "6 months",
+                "cost": 30000
+            }
+        ],
+        "skills": [
+            {
+                "Observation and Surveillance": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Physical fitness": {
+                    "score": 70,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Problem solving": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Communication": {
+                    "score": 50,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Conflict resolution": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Report writing": {
+                    "score": 35,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Customer service": {
+                    "score": 30,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Interpersonal skills": {
+                    "score": 25,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Decision making": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Loss Prevention Manager": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Regional Loss Prevention Manager": [
+                    8,
+                    10
+                ]
+            },
+            {
+                "Director of Loss Prevention": [
+                    10,
+                    15
+                ]
+            },
+            {
+                "Vice President of Loss Prevention": [
+                    15,
+                    18
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Criminology"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Christ University"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "Certified Loss Prevention Professional (CLPP)",
+                "provider": "Indian Institute of Security and Management Sciences",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Security Professional (CSP)",
+                "provider": "National Institute of Security Management",
+                "duration": 12,
+                "cost": 40000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Adaptability",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Loss Prevention Officer",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Loss Prevention Officer",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Loss Prevention Officer",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Security Services"
+    },
+    {
+        "title": "Fire Inspector",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Fire inspectors are responsible for ensuring that facilities are compliant with applicable codes and laws, and they are often employed by emergency response service companies and government entities. Their duties revolve around inspecting fire safety plans and the systems needed to extinguish fires to ensure that they comply with local laws, and they may also issue permits and investigate origins of fires.",
+            "Those in this position help facilities determine what must be done in order to comply with regulations and laws, and it is very important to follow up with inspected companies to ensure this compliance in the long run, as well. Public speaking skills are beneficial for this position, as they may occasionally be involved in developing and administering safety education programs. Travel is often required to visit facilities and perform fire inspections, so a valid driver\u2019s license is generally required. Sometimes, fire inspectors may be sought in emergency situations to provide additional support, which may involve driving an emergency vehicle.",
+            "Aspiring fire inspectors should be familiar with all laws and regulations regarding fire prevention, and the ability to perform CPR is also important. A minimum of a high school diploma is generally required, and a college degree may also be required by some employers."
+        ],
+        "keycompetencies": [
+            "Inspect site for fire hazards, prevention, and safety requirements.",
+            "Communicate with authorities, customers, and complete follow up inspections.",
+            "Inspect flammable liquid and chemical storage practices.",
+            "Ensure plans for new construction meets fire codes."
+        ],
+        "scholarships": [
+            {
+                "name": "Fire Safety Scholarship",
+                "provider": "Indian Society for Fire Safety",
+                "amount": 50000,
+                "eligibility": "Students pursuing Fire Safety Engineering or related courses"
+            },
+            {
+                "name": "National Fire Protection Association (NFPA) Scholarship",
+                "provider": "NFPA India",
+                "amount": 75000,
+                "eligibility": "Students pursuing Fire Safety or related courses"
+            }
+        ],
+        "training": [
+            {
+                "name": "Fire Safety Training Program",
+                "provider": "Indian Fire Safety Institute",
+                "duration": "1 month",
+                "cost": 20000
+            },
+            {
+                "name": "Emergency Response Planning Training",
+                "provider": "Indian Emergency Response Institute",
+                "duration": "2 months",
+                "cost": 40000
+            }
+        ],
+        "skills": [
+            {
+                "Attention to detail": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of fire codes and regulations": {
+                    "score": 70,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Problem solving": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Communication": {
+                    "score": 50,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Physical Fitness": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Inspection and testing": {
+                    "score": 35,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Report Writing": {
+                    "score": 30,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Interpersonal skills": {
+                    "score": 25,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Knowledge of fire protection systems": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Senior Fire Inspector": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Assistant Fire Marshal": [
+                    7,
+                    10
+                ]
+            },
+            {
+                "Fire Marshal": [
+                    10,
+                    15
+                ]
+            },
+            {
+                "Deputy Fire Chief": [
+                    15,
+                    18
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "MSc Fire Safety"
+            ],
+            "specializations": [
+                "Fire Safety Engineering",
+                "Industrial Safety"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Anna University",
+                "NIT Trichy"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "National Fire Protection Association (NFPA) Certification",
+                "provider": "NFPA India",
+                "duration": 6,
+                "cost": 30000
+            },
+            {
+                "name": "Indian Society for Fire Safety (ISFS) Certification",
+                "provider": "ISFS India",
+                "duration": 3,
+                "cost": 15000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Leadership",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Fire Inspector",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Fire Inspector",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Fire Inspector",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Fire & Rescue Services"
+    },
+    {
+        "title": "Loss Prevention Investigator",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 800000,
+                "max": 1200000
+            },
+            "senior_level": {
+                "min": 1800000,
+                "max": 2500000
+            }
+        },
+        "description": [
+            "Loss-prevention investigators are responsible for the protection of assets within their retail store. These investigators generally who work within their store and sometimes within an office, and may work independently or on a team.",
+            "Educational requirements for the position vary depending on the organization; most require a high school diploma or equivalent, and some require college education or training. Many organizations require prior work experience in a retail environment, as well.",
+            "Loss-prevention investigators may a variety of responsibilities and duties, including: detecting and investigating shoplifting; preventing employee theft and property destruction; investigating crimes within the store; recovering stolen inventory; assisting the employer in prosecuting criminals;using surveillance systems and observing surveillance tapes; interviewing suspects; conducting awareness training programs; investigating in-store deception; watching for suspicious behavior; running sales- and transaction-related reports; investigating cash theft; conducting routine bag checks among employees; maintaining and upholding store policies; and auditing regarding paperwork and various departments.",
+            "This position requires a person who is intuitive in nature, pays strong attention to detail, and works well in high-stress environments."
+        ],
+        "keycompetencies": [
+            "Monitor retail space via remote cameras and in-person surveillance.",
+            "Identify, isolate, search, and call police when suspects are identified.",
+            "Oversee electronic and inventory methods to reduce theft and losses.",
+            "Document attempted and actual thefts, including prevention measures and their effects.",
+            "Monitor employees and cash registers to identify potential and actual problems."
+        ],
+        "scholarships": [
+            {
+                "name": "Indian Council of Security and Intelligence (ICSI) Scholarship",
+                "provider": "Indian Council of Security and Intelligence (ICSI)",
+                "amount": 50000,
+                "eligibility": "Students pursuing a degree in Computer Science, Information Technology, or Business Management"
+            },
+            {
+                "name": "National Scholarship for Loss Prevention and Investigation",
+                "provider": "National Examination Board of Security and Intelligence (NEBSI)",
+                "amount": 75000,
+                "eligibility": "Students pursuing a degree in Security and Intelligence or related fields"
+            }
+        ],
+        "training": [
+            {
+                "name": "Loss Prevention and Investigation Training",
+                "provider": "Indian Institute of Security and Management (IISM)",
+                "duration": "3 months",
+                "cost": 15000
+            },
+            {
+                "name": "CCTV Monitoring and Surveillance Techniques",
+                "provider": "National Examination Board of Security and Intelligence (NEBSI)",
+                "duration": "1 month",
+                "cost": 10000
+            }
+        ],
+        "skills": [
+            {
+                "Attention to detail": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Surveillance and observation": {
+                    "score": 70,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Problem solving": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Communication": {
+                    "score": 50,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Report Writing": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Interpersonal skills": {
+                    "score": 35,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Conflict resolution": {
+                    "score": 30,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Decision making": {
+                    "score": 25,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Physical fitness": {
+                    "score": 20,
+                    "popular": "true",
+                    "important": "false"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Senior Loss Prevention Investigator": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Loss Prevention Supervisor": [
+                    7,
+                    10
+                ]
+            },
+            {
+                "Loss Prevention Manager": [
+                    10,
+                    15
+                ]
+            },
+            {
+                "Director of Loss Prevention": [
+                    15,
+                    18
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BCom",
+                "BA"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Business Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "SRM University",
+                "Anna University"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "Certified Loss Prevention Investigator",
+                "provider": "National Examination Board of Security and Intelligence (NEBSI)",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Security Manager",
+                "provider": "Indian Institute of Security and Management (IISM)",
+                "duration": 12,
+                "cost": 50000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Analytical Thinking",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Loss Prevention Investigator",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Loss Prevention Investigator",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 800000,
+                    "max": 1200000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Loss Prevention Investigator",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1800000,
+                    "max": 2500000
+                }
+            }
+        },
+        "sub_industry": "Security Services"
+    },
+    {
+        "title": "Special Weapons and Tactics (SWAT) Team Member",
+        "level": "Mid Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "In particularly difficult and dangerous situations involving armed criminals, the normal levels of manpower and firepower may be inadequate. Large cities often have special paramilitary units which are trained in high-risk tactical action to be deployed in such circumstances, and these units are called SWAT (Special Weapons and Tactics). A SWAT team member is an individual who is assigned to such a squad and trained in the use of weapons such as assault and sniper rifles and, occasionally, special vehicles such as helicopters and armored personnel carriers.",
+            "SWAT officers must be physically fit and mentally sharp and understand standard infiltration tactics, crowd control practices, and hostage situations. As the name indicates, SWAT officers are trained in the use of weapons, armor, and equipment that regular police officers do not typically utilize. They must also be effective communicators, and it is essential that they function well as a part of a team. As they are often sent to conduct operations in dangerous situations and under a lot of stress, the bar is set high both in fitness and performance. It is just as important that SWAT officers are skilled marksmen as they are effective at receiving and executing orders, and only the most capable applicants are accepted.",
+            "Most SWAT team members begin their careers as regular police officers. Indeed, at least three years of police work may be a minimum requirement for this position, though applicants who have military experience often receive special consideration. Some police forces may prefer applicants who have an associate's or bachelor's degree in criminal justice."
+        ],
+        "keycompetencies": [],
+        "scholarships": [
+            {
+                "name": "Police Merit Scholarship",
+                "provider": "Government of India",
+                "amount": 100000,
+                "eligibility": "Eligibility criteria"
+            },
+            {
+                "name": "Indian Police Service Scholarship",
+                "provider": "Indian Police Service",
+                "amount": 50000,
+                "eligibility": "Eligibility criteria"
+            }
+        ],
+        "training": [
+            {
+                "name": "SWAT Team Training Program",
+                "provider": "Indian Police Service Training Centre",
+                "duration": "6 months",
+                "cost": 20000
+            },
+            {
+                "name": "First Aid and Trauma Care Training",
+                "provider": "Red Cross Society",
+                "duration": "2 months",
+                "cost": 15000
+            }
+        ],
+        "skills": [
+            {
+                "Physical fitness and stamina": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Firearms proficiency and marksmanship": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Close-quarters combat and hand-to-hand combat": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Surveillance and reconnaissance": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Tactical planning and execution": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Emergency medical training": {
+                    "score": 60,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Communication and teamwork": {
+                    "score": 40,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Leadership and decision-making": {
+                    "score": 60,
+                    "popular": "false",
+                    "important": "true"
+                }
+            },
+            {
+                "Demolition and explosive ordnance disposal": {
+                    "score": 40,
+                    "popular": "false",
+                    "important": "true"
+                }
+            },
+            {
+                "Psychological resilience and stress management": {
+                    "score": 20,
+                    "popular": "false",
+                    "important": "true"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Team Leader": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Squad Leader": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "SWAT Commander": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA LLB",
+                "BCom"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Cyber Security",
+                "Criminology"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "DU",
+                "JNU",
+                "Jamia Millia Islamia"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [
+            {
+                "name": "Basic Firefighting Certification",
+                "provider": "National Fire Service College",
+                "duration": 3,
+                "cost": 15000
+            },
+            {
+                "name": "SWAT Team Operations Certification",
+                "provider": "Indian Police Service Training Centre",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "First Aid and Trauma Care Certification",
+                "provider": "Red Cross Society",
+                "duration": 2,
+                "cost": 10000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Time Management",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Special Weapons and Tactics (SWAT) Team Member",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Special Weapons and Tactics (SWAT) Team Member",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Special Weapons and Tactics (SWAT) Team Member",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Other"
+    },
+    {
+        "title": "Indian Administrative Service (IAS) Officer",
+        "level": "Entry to Senior Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 56100,
+                "max": 132000
+            },
+            "mid_level": {
+                "min": 144200,
+                "max": 218200
+            },
+            "senior_level": {
+                "min": 225000,
+                "max": 250000
+            }
+        },
+        "description": [
+            "IAS officers are among the most prestigious civil servants in India, responsible for the administration of government policies, implementation of laws, and management of public sector undertakings at various levels of government.",
+            "They may serve as District Collectors, Commissioners, Secretaries in various ministries, and in other key administrative roles.",
+            "IAS officers are selected through the UPSC Civil Services Examination and undergo rigorous training at the Lal Bahadur Shastri National Academy of Administration."
+        ],
+        "keycompetencies": [
+            "Policy formulation and implementation.",
+            "Public administration and governance.",
+            "Crisis and disaster management.",
+            "Leadership and team management."
+        ],
+        "scholarships": [
+            {
+                "name": "UPSC Civil Services Exam Scholarship",
+                "provider": "Various State Governments/NGOs",
+                "amount": 50000,
+                "eligibility": "Meritorious students preparing for UPSC CSE"
+            }
+        ],
+        "training": [
+            {
+                "name": "Foundation Course",
+                "provider": "LBSNAA",
+                "duration": "3 months",
+                "cost": 0
+            },
+            {
+                "name": "Phase I & II Training",
+                "provider": "LBSNAA",
+                "duration": "2 years",
+                "cost": 0
+            }
+        ],
+        "skills": [
+            {
+                "Leadership": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Policy Analysis": {
+                    "score": 90,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Communication": {
+                    "score": 85,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Problem Solving": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "true"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Sub-Divisional Magistrate": [
+                    0,
+                    4
+                ]
+            },
+            {
+                "District Magistrate/Collector": [
+                    5,
+                    12
+                ]
+            },
+            {
+                "Divisional Commissioner": [
+                    13,
+                    20
+                ]
+            },
+            {
+                "Principal Secretary/Additional Chief Secretary": [
+                    21,
+                    30
+                ]
+            },
+            {
+                "Chief Secretary": [
+                    31,
+                    35
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "Any Bachelor's Degree"
+            ],
+            "specializations": [
+                "Any discipline"
+            ],
+            "institutions": [
+                "Any recognized university"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [],
+        "key_competencies": [
+            {
+                "competency": "Leadership",
+                "importance": "high"
+            },
+            {
+                "competency": "Decision Making",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Sub-Divisional Magistrate",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 56100,
+                    "max": 132000
+                }
+            },
+            "mid_level": {
+                "title": "District Magistrate/Collector",
+                "experience_years": 5,
+                "salary_range": {
+                    "min": 144200,
+                    "max": 218200
+                }
+            },
+            "senior_level": {
+                "title": "Chief Secretary",
+                "experience_years": 31,
+                "salary_range": {
+                    "min": 225000,
+                    "max": 250000
+                }
+            }
+        },
+        "sub_industry": "Civil Services"
+    },
+    {
+        "title": "Indian Police Service (IPS) Officer",
+        "level": "Entry to Senior Level",
+        "industry": "Protective Services",
+        "salary": {
+            "entry_level": {
+                "min": 56100,
+                "max": 132000
+            },
+            "mid_level": {
+                "min": 144200,
+                "max": 218200
+            },
+            "senior_level": {
+                "min": 225000,
+                "max": 250000
+            }
+        },
+        "description": [
+            "IPS officers are responsible for leading and commanding India's police forces at the district, state, and national levels.",
+            "They ensure law and order, prevent and investigate crimes, and manage police operations and personnel.",
+            "IPS officers are selected through the UPSC Civil Services Examination and undergo training at the Sardar Vallabhbhai Patel National Police Academy."
+        ],
+        "keycompetencies": [
+            "Law enforcement and crime prevention.",
+            "Leadership and team management.",
+            "Crisis and disaster management.",
+            "Public safety and security."
+        ],
+        "scholarships": [
+            {
+                "name": "UPSC Civil Services Exam Scholarship",
+                "provider": "Various State Governments/NGOs",
+                "amount": 50000,
+                "eligibility": "Meritorious students preparing for UPSC CSE"
+            }
+        ],
+        "training": [
+            {
+                "name": "Basic Training",
+                "provider": "SVPNPA",
+                "duration": "2 years",
+                "cost": 0
+            }
+        ],
+        "skills": [
+            {
+                "Leadership": {
+                    "score": 100,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Law Enforcement": {
+                    "score": 90,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Crisis Management": {
+                    "score": 85,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Communication": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "true"
+                }
+            }
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Assistant Superintendent of Police": [
+                    0,
+                    4
+                ]
+            },
+            {
+                "Superintendent of Police": [
+                    5,
+                    12
+                ]
+            },
+            {
+                "Deputy Inspector General": [
+                    13,
+                    20
+                ]
+            },
+            {
+                "Inspector General": [
+                    21,
+                    30
+                ]
+            },
+            {
+                "Director General of Police": [
+                    31,
+                    35
+                ]
+            }
+        ],
+        "education": {
+            "degrees": [
+                "Any Bachelor's Degree"
+            ],
+            "specializations": [
+                "Any discipline"
+            ],
+            "institutions": [
+                "Any recognized university"
+            ]
+        },
+        "careerpath": [
+            []
+        ],
+        "certifications": [],
+        "key_competencies": [
+            {
+                "competency": "Leadership",
+                "importance": "high"
+            },
+            {
+                "competency": "Law Enforcement",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Assistant Superintendent of Police",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 56100,
+                    "max": 132000
+                }
+            },
+            "mid_level": {
+                "title": "Superintendent of Police",
+                "experience_years": 5,
+                "salary_range": {
+                    "min": 144200,
+                    "max": 218200
+                }
+            },
+            "senior_level": {
+                "title": "Director General of Police",
+                "experience_years": 31,
+                "salary_range": {
+                    "min": 225000,
+                    "max": 250000
+                }
+            }
+        },
+        "sub_industry": "Civil Services"
+    }
+]

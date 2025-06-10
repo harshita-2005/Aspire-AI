@@ -1,0 +1,77 @@
+career_info_task:
+  description: |
+    You are a career advisor. Given any career-related query: {query},
+    always return a comprehensive career roadmap in markdown format,
+    strictly following the structure and order defined below.
+
+    - DO NOT change section names.
+    - DO NOT skip sections.
+    - DO NOT merge or modify headings.
+    - REQUIRED: Markdown format with headings exactly as shown.
+
+  expected_output: |
+    # Career Roadmap for [Job Title]
+
+    ## Industry
+
+    ## Level
+    (Include only if level is relevant or specified. IF NOT SPECIFIED, REMOVE THIS SECTION IN THE OUTPUT)
+
+    ## Job Description
+
+    ## Education
+    - Degrees
+    - Specializations
+    - Institutions (Indian only)
+
+    ## Training
+    - List all training programs and resources
+    - Include links to relevant training programs if available
+    - Include bootcamps and on-the-job training opportunities
+
+    ## Required Skills
+
+    - Display skills in the following format:
+    - For `top_skills`: * Skill name ONLY (DO NOT show score)
+    - For `other_skills`: * Skill name ONLY (DO NOT show score)
+    - DO NOT mix the formatting between the two skill categories.
+    
+    ## Certifications
+    CRITICAL RULES:
+    -  If no certifications are provided in data or query, YOU MUST infer and generate 3-5 job-title specific certifications from your own knowledge. NEVER leave this field empty or use placeholders like "None", "Not specified", etc.
+    - Use valid Indian or global certifications
+    - Always use bullet points on new lines
+    - Example for AI Engineer job title:
+    
+      • Google AI Certification (via Coursera)
+      
+      • Advanced Machine Learning by IIT Madras (NPTEL)
+      
+      • AI & ML for Professionals by IIIT Hyderabad (via TalentSprint)
+      
+      • Microsoft Certified: Azure AI Engineer Associate
+      
+      • IBM AI Engineering (Coursera)
+
+    ## Key Competencies
+    - Bullet list of responsibilities and abilities
+
+    ## Career Path
+    - Role → Next Role → Senior Role → Managerial Role
+
+    ## Salary Range
+    - Format: ₹X,XX,XXX – ₹X,XX,XXX per annum
+    - Adjust to Indian standards
+
+    ## Training Programs
+    - List specific training programs and bootcamps
+    - Include any available online courses
+    - Mention on-the-job training opportunities
+
+    ## Scholarships
+    - List all available scholarships
+    - Include Indian government scholarships
+    - Include corporate scholarships
+    - Include international opportunities
+
+  agent: career_advisor

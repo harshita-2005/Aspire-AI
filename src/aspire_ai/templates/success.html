@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aspire AI Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .industry-card {
+      transition: all 0.2s ease;
+    }
+    .industry-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 h-screen flex flex-col font-sans">
+  <!-- Header with gradient border -->
+  <header class="flex items-center justify-between bg-white shadow-sm px-6 py-4 border-b-2 border-gradient-to-r from-blue-500 to-purple-500">
+    <div class="flex items-center">
+      <img src="{{ url_for('static', filename='logo1.png') }}" alt="Aspire AI Logo" class="h-10 mr-3">
+      <div class="text-2xl font-semibold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+        Aspire AI
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-6 overflow-y-auto">
+    <!-- Browse by Industry Section -->
+    <div class="bg-white rounded-xl shadow-lg p-6 mb-6 border border-gray-100">
+      <div class="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
+        <h3 class="text-xl font-bold text-gray-800">Browse by Industry</h3>
+        <div class="relative w-full md:w-64">
+          <input type="text" 
+                 id="industry-search" 
+                 placeholder="Search industries..." 
+                 class="w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                 onkeyup="filterIndustries()">
+          <div class="absolute left-3 top-2.5 text-gray-400">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4" id="industry-grid">
+        <a href="{{ url_for('show_industry', industry_name='Technology') }}" 
+           class="industry-card p-4 border border-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50 cursor-pointer"
+           data-industry="technology software development programming it computers">
+          <div class="flex items-center mb-3">
+            <div class="p-3 rounded-lg bg-blue-100 text-blue-600 mr-3">
+              <i class="fas fa-laptop-code text-xl"></i>
+            </div>
+            <h4 class="font-semibold text-gray-800">Information Technology & Software</h4>
+          </div>
+          <p class="text-sm text-gray-600 ml-14">Software Development, IT Services, Computing</p>
+        </a>
+        
+        <a href="{{ url_for('show_industry', industry_name='Accounting & Finance') }}" 
+           class="industry-card p-4 border border-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50 cursor-pointer"
+           data-industry="business finance banking insurance investment management">
+          <div class="flex items-center mb-3">
+            <div class="p-3 rounded-lg bg-blue-100 text-blue-600 mr-3">
+              <i class="fas fa-chart-line text-xl"></i>
+            </div>
+            <h4 class="font-semibold text-gray-800">Banking, Finance & Insurance</h4>
+          </div>
+          <p class="text-sm text-gray-600 ml-14">Banking, Insurance, Financial Services</p>
+        </a>
+
+        <a href="{{ url_for('show_industry', industry_name='Healthcare') }}" 
+           class="industry-card p-4 border border-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50 cursor-pointer"
+           data-industry="healthcare medical nursing support health">
+          <div class="flex items-center mb-3">
+            <div class="p-3 rounded-lg bg-blue-100 text-blue-600 mr-3">
+              <i class="fas fa-heartbeat text-xl"></i>
+            </div>
+            <h4 class="font-semibold text-gray-800">Healthcare & Medical Support</h4>
+          </div>
+          <p class="text-sm text-gray-600 ml-14">Medical Support, Patient Care, Health Services</p>
+        </a>
+
+        <a href="{{ url_for('show_industry', industry_name='Marketing & Advertising') }}" 
+           class="industry-card p-4 border border-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50 cursor-pointer"
+           data-industry="sales marketing business development">
+          <div class="flex items-center mb-3">
+            <div class="p-3 rounded-lg bg-blue-100 text-blue-600 mr-3">
+              <i class="fas fa-bullhorn text-xl"></i>
+            </div>
+            <h4 class="font-semibold text-gray-800">Marketing & Advertising</h4>
+          </div>
+          <p class="text-sm text-gray-600 ml-14">Marketing, Advertising, Business Development</p>
+        </a>
+
+        <a href="{{ url_for('show_industry', industry_name='Art & Design') }}" 
+           class="industry-card p-4 border border-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50 cursor-pointer"
+           data-industry="creative media design art entertainment">
+          <div class="flex items-center mb-3">
+            <div class="p-3 rounded-lg bg-blue-100 text-blue-600 mr-3">
+              <i class="fas fa-photo-video text-xl"></i>
+            </div>
+            <h4 class="font-semibold text-gray-800">Art & Design</h4>
+          </div>
+          <p class="text-sm text-gray-600 ml-14">Design, Media Production, Creative Arts</p>
+        </a>
+
+        <a href="{{ url_for('show_industry', industry_name='Legal Activities') }}" 
+           class="industry-card p-4 border border-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50 cursor-pointer"
+           data-industry="legal law justice attorney paralegal">
+          <div class="flex items-center mb-3">
+            <div class="p-3 rounded-lg bg-blue-100 text-blue-600 mr-3">
+              <i class="fas fa-scale-balanced text-xl"></i>
+            </div>
+            <h4 class="font-semibold text-gray-800">Legal & Justice Services</h4>
+          </div>
+          <p class="text-sm text-gray-600 ml-14">Law, Legal Services, Justice System</p>
+        </a>
+
+        <a href="{{ url_for('show_industry', industry_name='Media and Entertainment') }}" 
+           class="industry-card p-4 border border-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50 cursor-pointer"
+           data-industry="ecommerce retail shopping sales store">
+          <div class="flex items-center mb-3">
+            <div class="p-3 rounded-lg bg-blue-100 text-blue-600 mr-3">
+              <i class="fas fa-shopping-cart text-xl"></i>
+            </div>
+            <h4 class="font-semibold text-gray-800">Media and Entertainment</h4>
+          </div>
+          <p class="text-sm text-gray-600 ml-14">Media Production, Broadcasting, Entertainment</p>
+        </a>
+
+        <a href="{{ url_for('show_industry', industry_name='Tourism and Hospitality') }}" 
+           class="industry-card p-4 border border-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50 cursor-pointer"
+           data-industry="food service restaurant hospitality culinary">
+          <div class="flex items-center mb-3">
+            <div class="p-3 rounded-lg bg-blue-100 text-blue-600 mr-3">
+              <i class="fas fa-utensils text-xl"></i>
+            </div>
+            <h4 class="font-semibold text-gray-800">Tourism & Hospitality</h4>
+          </div>
+          <p class="text-sm text-gray-600 ml-14">Hospitality, Tourism, Restaurants, Travel Services</p>
+        </a>
+
+        <a href="{{ url_for('show_industry', industry_name='Aerospace and Aviation') }}" 
+           class="industry-card p-4 border border-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50 cursor-pointer"
+           data-industry="aviation aerospace aircraft flight aerospace">
+          <div class="flex items-center mb-3">
+            <div class="p-3 rounded-lg bg-blue-100 text-blue-600 mr-3">
+              <i class="fas fa-plane text-xl"></i>
+            </div>
+            <h4 class="font-semibold text-gray-800">Aviation & Aerospace Industry</h4>
+          </div>
+          <p class="text-sm text-gray-600 ml-14">Aircraft, Flight Operations, Aerospace</p>
+        </a>
+
+        <a href="{{ url_for('show_industry', industry_name='Life Sciences') }}" 
+           class="industry-card p-4 border border-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50 cursor-pointer"
+           data-industry="pharmaceutical biotechnology medical research science">
+          <div class="flex items-center mb-3">
+            <div class="p-3 rounded-lg bg-blue-100 text-blue-600 mr-3">
+              <i class="fas fa-flask text-xl"></i>
+            </div>
+            <h4 class="font-semibold text-gray-800">Pharmaceutical & Biotech Research</h4>
+          </div>
+          <p class="text-sm text-gray-600 ml-14">Drug Development, Biotech Research</p>
+        </a>
+
+        <a href="{{ url_for('show_industry', industry_name='Protective Services') }}" 
+           class="industry-card p-4 border border-gray-200 rounded-lg hover:bg-gradient-to-br hover:from-blue-50 hover:to-purple-50 cursor-pointer"
+           data-industry="protective services security safety guard">
+          <div class="flex items-center mb-3">
+            <div class="p-3 rounded-lg bg-blue-100 text-blue-600 mr-3">
+              <i class="fas fa-shield-alt text-xl"></i>
+            </div>
+            <h4 class="font-semibold text-gray-800">Protective Services</h4>
+          </div>
+          <p class="text-sm text-gray-600 ml-14">Security, Safety, Protection Services</p>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- AI Assistant Bar -->
+  <div class="bg-white border-t border-gray-200 p-4">
+    <a href="/chatbot" class="block max-w-4xl mx-auto">
+      <div class="flex items-center justify-between border rounded-lg p-3 hover:border-blue-500 transition-colors group bg-gradient-to-r from-blue-50 to-purple-50">
+        <div class="flex items-center flex-1">
+          <div class="p-2 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 text-white mr-3">
+            <i class="fas fa-robot text-xl"></i>
+          </div>
+          <div class="flex-1">
+            <input type="text" 
+                   readonly 
+                   placeholder="Get AI assistance..." 
+                   class="w-full bg-transparent cursor-pointer placeholder-gray-500 focus:outline-none"
+                   onclick="window.location.href='/chatbot'">
+          </div>
+        </div>
+        <i class="fas fa-chevron-right text-blue-500 group-hover:transform group-hover:translate-x-1 transition-transform"></i>
+      </div>
+    </a>
+  </div>
+
+  <script>
+    // Industry search functionality
+    function filterIndustries() {
+      const searchInput = document.getElementById('industry-search');
+      const filter = searchInput.value.toLowerCase();
+      const industryCards = document.getElementsByClassName('industry-card');
+
+      for (let card of industryCards) {
+        const industryText = card.getAttribute('data-industry');
+        const titleText = card.querySelector('h4').textContent.toLowerCase();
+        const descText = card.querySelector('p').textContent.toLowerCase();
+        const shouldShow = industryText.includes(filter) || 
+                          titleText.includes(filter) || 
+                          descText.includes(filter);
+        
+        card.style.display = shouldShow ? '' : 'none';
+      }
+    }
+  </script>
+</body>
+</html>

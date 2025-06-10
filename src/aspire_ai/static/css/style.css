@@ -1,0 +1,380 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #2d3748;
+}
+
+/* Reduced container size from 1200px to 900px */
+.container {
+    width: 100%;
+    max-width: 900px; /* Changed from 1200px */
+    margin: 0 auto;
+}
+
+/* Adjusted registration container padding */
+.registration-container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+    backdrop-filter: blur(4px);
+    padding: 30px; /* Reduced from 40px */
+    transition: all 0.3s ease;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 25px; /* Reduced from 30px */
+}
+
+.user-icon {
+    font-size: 42px; /* Reduced from 48px */
+    color: #667eea;
+    margin-bottom: 15px; /* Reduced from 20px */
+}
+
+h1 {
+    font-size: 28px; /* Reduced from 32px */
+    color: #2d3748;
+    margin-bottom: 8px; /* Reduced from 10px */
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 15px; /* Reduced from 16px */
+    color: #718096;
+    margin-bottom: 25px; /* Reduced from 30px */
+}
+
+/* Profile Selection - Reduced max-width */
+.profile-selection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px; /* Reduced from 20px */
+    margin: 0 auto;
+    max-width: 700px; /* Reduced from 800px */
+    padding: 15px; /* Reduced from 20px */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-selection {
+        grid-template-columns: 1fr;
+        max-width: 350px; /* Reduced from 400px */
+    }
+
+    .registration-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .user-icon {
+        font-size: 36px;
+    }
+}
+
+/* Profile buttons - slightly reduced padding */
+.profile-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Reduced from 12px */
+    padding: 12px 16px; /* Reduced from 15px 20px */
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.profile-btn i {
+    font-size: 20px; /* Reduced from 22px */
+    color: #667eea;
+    transition: all 0.3s ease;
+}
+
+.profile-btn span {
+    font-size: 15px; /* Reduced from 16px */
+    color: #4a5568;
+    font-weight: 500;
+}
+
+/* Form Styling - reduced padding */
+.form-section {
+    background: white;
+    border-radius: 12px;
+    padding: 20px; /* Reduced from 25px */
+    margin-bottom: 15px; /* Reduced from 20px */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.form-section h2 {
+    font-size: 18px; /* Reduced from 20px */
+    margin-bottom: 15px; /* Reduced from 20px */
+}
+
+/* ... rest of your CSS remains the same ... */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #4a5568;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a0aec0;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.input-group input {
+    padding-left: 35px;
+}
+
+/* Skills Auto-suggest */
+.skills-container {
+    position: relative;
+}
+
+.skills-input-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    min-height: 45px;
+    background: white;
+}
+
+.skills-input {
+    border: none;
+    outline: none;
+    padding: 4px;
+    flex: 1;
+    min-width: 120px;
+}
+
+.skill-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    background: #edf2ff;
+    color: #4a5568;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.skill-tag i {
+    cursor: pointer;
+    font-size: 12px;
+    color: #718096;
+}
+
+.skills-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    margin-top: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.skills-dropdown.active {
+    display: block;
+    animation: slideDown 0.2s ease-out;
+}
+
+.skill-suggestion {
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.skill-suggestion:hover,
+.skill-suggestion.selected {
+    background: #edf2ff;
+}
+
+/* Activities */
+.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.activity-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    color: #4a5568;
+}
+
+.activity-btn.selected {
+    background: #edf2ff;
+    border-color: #667eea;
+    color: #667eea;
+}
+
+.activity-btn i {
+    font-size: 16px;
+}
+
+/* Animations */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Back Button */
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #edf2ff;
+    color: #4a5568;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+    background: #667eea;
+    color: white;
+}
+
+/* Submit Button */
+.submit-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
+
+.submit-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Dynamic Input Groups */
+.dynamic-input-group {
+    position: relative;
+}
+
+.dynamic-input-group select {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.other-input-container {
+    transition: all 0.3s ease-in-out;
+    margin-top: 8px;
+}
+
+.other-input-container input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.other-input-container input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+/* Career Shift Fields Animation */
+.career-shift-fields {
+    transition: all 0.3s ease-in-out;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.career-shift-fields.visible {
+    max-height: 500px;
+    opacity: 1;
+}

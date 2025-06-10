@@ -1,0 +1,3519 @@
+[
+    {
+        "title": "Assistant Catering Manager",
+        "level": "Mid Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 250000,
+                "max": 400000
+            },
+            "mid_level": {
+                "min": 500000,
+                "max": 900000
+            },
+            "senior_level": {
+                "min": 1000000,
+                "max": 1800000
+            }
+        },
+        "description": [
+            "Managing the supplies of the facility.",
+            "Managing finances and finance related administrative work of the facility.",
+            "Running the canteen, kiosks and other specialised food outlet unit.",
+            "Maintaining the inventory for uninterrupted service delivery."
+        ],
+        "keycompetencies": [
+            "Ability to procure and manage supplies.",
+            "Proficient in managing the inventory of supplies.",
+            "Well-versed with managing day-to-day finances of the facility along with finance related administrative work.",
+            "Knowledge of how to recruit and train the staff.",
+            "Ability to maintain the quality of operations in the facility.",
+            "Knowledge of English and one local or foreign language."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/"
+        ],
+        "training": [
+            "http://www.thehotelschool.com/catering-course.html"
+        ],
+        "skills": [
+            {
+                "Food Safety Management": {
+                    "score": 95,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Inventory Management": {
+                    "score": 90,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Staff Management": {
+                    "score": 85,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Cost Control": {
+                    "score": 85,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Menu Planning": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "false"
+                }
+            },
+            {
+                "Customer Service": {
+                    "score": 80,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "HACCP Knowledge": {
+                    "score": 75,
+                    "popular": "false",
+                    "important": "true"
+                }
+            },
+            {
+                "Financial Management": {
+                    "score": 75,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Quality Control": {
+                    "score": 70,
+                    "popular": "true",
+                    "important": "true"
+                }
+            },
+            {
+                "Event Planning": {
+                    "score": 65,
+                    "popular": "false",
+                    "important": "false"
+                }
+            }
+        ],
+        "certificates": {
+            "essential": [
+                "Certificate in Hotel and Catering Management (CHCM) - IISDT",
+                "Food Safety Supervisor Certificate - FSSAI",
+                "Certificate in Catering Management - NCTA"
+            ],
+            "recommended": [
+                "Certified Restaurant Manager - Vskills",
+                "Diploma in Food Production (Cookery) - NCTA",
+                "Advanced Certificate in Food & Beverage Service - IISDT"
+            ]
+        },
+        "precareerpath": {
+            "roles": [
+                "Kitchen Supervisor",
+                "Food & Beverage Supervisor",
+                "Catering Supervisor"
+            ],
+            "experience": "2-3 years"
+        },
+        "progressionpath": [
+            {
+                "Catering Manager": [
+                    3,
+                    5
+                ]
+            },
+            {
+                "Food and Beverage Manager": [
+                    5,
+                    8
+                ]
+            },
+            {
+                "Operations Manager": [
+                    8,
+                    12
+                ]
+            },
+            {
+                "General Manager - F&B": [
+                    12,
+                    15
+                ]
+            }
+        ],
+        "education": {
+            "minimum": "Diploma in Hotel Management or Catering Technology",
+            "preferred": "Bachelor's degree in Hotel Management/Catering Technology",
+            "recommended_institutes": [
+                "Institute of Hotel Management (IHM)",
+                "National Council for Hotel Management and Catering Technology (NCHMCT)",
+                "State Board of Technical Education"
+            ]
+        },
+        "careerpath": [
+            [
+                "Assistant",
+                "Floor Manager",
+                "**Assistant Catering Manager**",
+                "Catering Manager/In-Charge"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "FSSAI Certification",
+                "provider": "Food Safety and Standards Authority of India",
+                "duration": 3,
+                "cost": 10000
+            },
+            {
+                "name": "HACCP Certification",
+                "provider": "Indian Institute of Hotel Management",
+                "duration": 6,
+                "cost": 20000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Adaptability",
+                "importance": "high"
+            },
+            {
+                "competency": "Attention to detail",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Assistant Catering Manager",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 250000,
+                    "max": 400000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Assistant Catering Manager",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 500000,
+                    "max": 900000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Assistant Catering Manager",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1000000,
+                    "max": 1800000
+                }
+            }
+        },
+        "sub_industry": "Food & Beverage Management"
+    },
+    {
+        "title": "Customer Service Executive (Meet and Greet)",
+        "level": "Entry Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Meeting the customers or guests at the terminal or designated place.",
+            "Greeting the customers and arranging for transferring them to an agreed destination.",
+            "Handling guest queries and complaints."
+        ],
+        "keycompetencies": [
+            "Familiar with local maps and routes.",
+            "Knowledge of major airlines, trains, national bus/coach operating companies.",
+            "Knowledge of foreign exchange rules and where the currencies can be exchanged.",
+            "Basic knowledge of permits and checks required for the customer.",
+            "Skilled in using computer for checking itinerary, schedules, etc..",
+            "Skilled in using GPS for route mapping."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do",
+            "http://pmkvyofficial.org"
+        ],
+        "training": [
+            "http://www.ihmsrinagar.org/index.php?option=com_content&view=article&id=245&Itemid=67"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BCom",
+                "BA"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Hospitality Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Manipal University",
+                "Amity University",
+                "Christ University"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Customer Service Executive (Meet and Greet)**",
+                "Team Leader",
+                "Assistant Front Office Manager",
+                "Front Office Manager"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Customer Service Representative",
+                "provider": "Indian Institute of Customer Service",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Hospitality Professional",
+                "provider": "Indian Tourism and Hospitality Certification Board",
+                "duration": 3,
+                "cost": 20000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Customer Service Executive (Meet and Greet)",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Customer Service Executive (Meet and Greet)",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Customer Service Executive (Meet and Greet)",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Event & Hospitality Planning"
+    },
+    {
+        "title": "Director, Lodging and Catering Services",
+        "level": "Higher Management Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 240000,
+                "max": 420000
+            },
+            "mid_level": {
+                "min": 540000,
+                "max": 900000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 1800000
+            }
+        },
+        "description": [
+            "Organizing and supervising, within authority delegated, efficient utilization of resources in public or private organization which is engaged in preparing and serving food and beverages, etc..",
+            "Implementing company policies.",
+            "Developing strategic plans.",
+            "Attending meetings .",
+            "Reporting to the Board of Directors or Members.",
+            "Maintaining a dialogue between Shareholders and the board.",
+            "Controlling finance.",
+            "Overseeing Senior Management Staff.",
+            "Building and maintaining an effective management team.",
+            "Co-ordinating with department heads."
+        ],
+        "keycompetencies": [
+            "Knowledge of preparation of food, drinks, beverages, etc..",
+            "Proficient in using database server, systems, etc..",
+            "Ability to maintain the meeting recordings with various stakeholders.",
+            "Well-versed with company policies.",
+            "Ability to draft strategic plans for efficient running of lodging and catering services."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.wbut.ac.in/syllabus/Hotel_Mgnt_Syllabus.pdf"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "MBA",
+                "MSc"
+            ],
+            "specializations": [
+                "Hospitality Management",
+                "Tourism Management",
+                "Hotel Management",
+                "Food and Beverage Service Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Indian Institute of Hotel Management, Aurangabad",
+                "Institute of Hotel Management, Catering Technology and Applied Nutrition, Mumbai"
+            ]
+        },
+        "careerpath": [
+            [
+                "Assistant Manager",
+                "Manager, Lodging and Catering Service",
+                "General Manager, Lodging and Catering Service",
+                "**Director, Lodging and Catering Service**",
+                "CEO"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Hospitality Administrator (CHA)",
+                "provider": "Indian Institute of Hotel Management",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Food Safety Professional (CFSP)",
+                "provider": "National Environmental Engineering Research Institute (NEERI)",
+                "duration": 3,
+                "cost": 15000
+            },
+            {
+                "name": "Certified Event Manager (CEM)",
+                "provider": "Indian Institute of Event Management",
+                "duration": 6,
+                "cost": 20000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication",
+                "importance": "high"
+            },
+            {
+                "competency": "Leadership",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Director, Lodging and Catering Services",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 240000,
+                    "max": 420000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Director, Lodging and Catering Services",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 540000,
+                    "max": 900000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Director, Lodging and Catering Services",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 1800000
+                }
+            }
+        },
+        "sub_industry": "Other"
+    },
+    {
+        "title": "Duty Manager",
+        "level": "Management Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 240000,
+                "max": 400000
+            },
+            "mid_level": {
+                "min": 500000,
+                "max": 900000
+            },
+            "senior_level": {
+                "min": 1100000,
+                "max": 1800000
+            }
+        },
+        "description": [
+            "Planning and managing the front office operations.",
+            "Creating work plans and schedules the front office operation.",
+            "Supervising various sections such as bell desk, travel desk, front desk, etc..",
+            "Ensuring guest satisfaction during the stay.",
+            "Preparing the budget.",
+            "Assisting in decision-making.",
+            "Managing the front office staffing and recruiting process ."
+        ],
+        "keycompetencies": [
+            "Ability to plan and control the day to day activities of the front office.",
+            "Ability to monitor the front office operation.",
+            "Proficient in preparing budgets and controlling costs .",
+            "Ability to manage the front office staff performance and activities.",
+            "Well-versed in recruiting and supervising front office employees.",
+            "Proficient in speaking English and at least one foreign or local language ."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/"
+        ],
+        "training": [
+            "http://www.sgtuniversity.ac.in/faculty-of-hotel-and-tourism-management/pages/diploma-in-front-office-management-syllabus"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Store Manager": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Senior Store Manager": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Store Manager IV": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Store Manager V": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "Associate Director of Retail": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Head Store Manager": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "Senior Director of Retail Sales": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Vice President of Retail Sales": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "careerpath": [
+            [
+                "Bellman",
+                "Front Office Associate",
+                "**Duty Manager**",
+                "Movement to other occupations"
+            ]
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "MBA"
+            ],
+            "specializations": [
+                "Tourism Management",
+                "Hospitality Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Indian Institute of Tourism and Travel Management (IITTM)"
+            ]
+        },
+        "certifications": [
+            {
+                "name": "IHG (InterContinental Hotels Group) Certified Hospitality Manager",
+                "provider": "IHG India",
+                "duration": 1,
+                "cost": 40000
+            },
+            {
+                "name": "Marriott International Certified Hospitality Specialist",
+                "provider": "Marriott India",
+                "duration": 1,
+                "cost": 45000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication Skills",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Duty Manager",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 240000,
+                    "max": 400000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Duty Manager",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 500000,
+                    "max": 900000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Duty Manager",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1100000,
+                    "max": 1800000
+                }
+            }
+        },
+        "sub_industry": "Hotel & Lodging Management"
+    },
+    {
+        "title": "Executive Chef",
+        "level": "Mid Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Coordinating activities of and directing indoctrination and training to people engaged in preparing and cooking foods.",
+            "Planning or participating in planning menus.",
+            "Estimating food consumption and purchasing foodstuffs and kitchen supplies.",
+            "Reviewing menus, analysing recipes, determining food and overhead costs, and assigning price to menu items.",
+            "Directing food apportionment policy to control costs.",
+            "Supervising cooking and other kitchen personnel and coordinating their assignments to ensure economical and timely food production.",
+            "Testing cooked foods by tasting and smelling them.",
+            "Devising  special dishes and developing recipes.",
+            "Hiring and discharging employees.",
+            "Familiarizing newly hired Chefs and Cooks with practices of restaurant kitchen and overseeing training of Cook Apprentices.",
+            "Maintaining time and payroll records.",
+            "Establishing and enforcing nutrition and sanitation standards for restaurant."
+        ],
+        "keycompetencies": [
+            "Knowledge of various kinds of menu.",
+            "Well-versed with the standards of sanitation, cleanliness and safety that needs to be maintained in the kitchen area.",
+            "Ability to develop standard recipes and techniques for food preparation and presentation.",
+            "Knowledge of various methods to minimize food and supply waste and theft.",
+            "Proficient in managing the team of Cooks, Helpers and other staff, etc.."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.sgtuniversity.ac.in/faculty-of-hotel-and-tourism-management/pages/diploma-in-front-office-management-syllabus"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BSc Hospitality"
+            ],
+            "specializations": [
+                "Food Technology",
+                "Hospitality Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "ITM Business School"
+            ]
+        },
+        "careerpath": [
+            [
+                "Kitchen Helpers",
+                "Commis Chef",
+                "Line Cook/Chef of Party",
+                "Sous Chef",
+                "**Executive Chef**"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Executive Chef (CEC)",
+                "provider": "The Indian Culinary Association",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Food Safety Certification",
+                "provider": "National Environmental Engineering Research Institute (NEERI)",
+                "duration": 3,
+                "cost": 10000
+            },
+            {
+                "name": "HACCP Certification",
+                "provider": "Indian National Committee for Food Safety",
+                "duration": 6,
+                "cost": 18000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Leadership",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Executive Chef",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Executive Chef",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Executive Chef",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Food & Beverage Management"
+    },
+    {
+        "title": "Flight Attendants and Travel Stewards",
+        "level": "Entry Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Rendering personal services to ensure the comfort and safety of passengers.",
+            "Serving meals and beverages.",
+            "Planning and co-ordinating housekeeping activities in the aircrafts/ships."
+        ],
+        "keycompetencies": [
+            "Knowledge of airport codes, aircraft configurations and airline terminology.",
+            "Knowledge of emergency procedures and plane evacuation protocol.",
+            "Competent in ensuring company and department standards are followed.",
+            "Well-versed in First-aid and CPR."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.igiaindia.in/diploma-in-cabin-crew-services-hm.html"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BA/BSc",
+                "BCA",
+                "BSc IT",
+                "BCom",
+                "BBA"
+            ],
+            "specializations": [
+                "Tourism Management",
+                "Hospitality Management",
+                "Travel and Tourism",
+                "Airline Management"
+            ],
+            "institutions": [
+                "Delhi University",
+                "University of Mumbai",
+                "IIM Ahmedabad",
+                "IIT Delhi",
+                "BITS Pilani"
+            ]
+        },
+        "careerpath": [
+            [
+                "Trainee",
+                "**Flight Attendants and Travel Stewards**",
+                "Head Flight Attendant"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certificate in Airline Customer Service",
+                "provider": "Indian Aviation Academy",
+                "duration": 3,
+                "cost": 15000
+            },
+            {
+                "name": "Diploma in Tourism Management",
+                "provider": "National Council for Hotel Management and Catering Technology",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certificate in Safety and Emergency Procedures",
+                "provider": "Indian Institute of Aeronautics",
+                "duration": 2,
+                "cost": 10000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Leadership",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Flight Attendants and Travel Stewards",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Flight Attendants and Travel Stewards",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Flight Attendants and Travel Stewards",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Travel & Tourism Services"
+    },
+    {
+        "title": "Food & Beverage Service Steward",
+        "level": "Entry Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 250000,
+                "max": 400000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 900000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 1800000
+            }
+        },
+        "description": [
+            "Serving food and beverages to guests of the hotel, restaurant or banquet function.",
+            "Greeting and seating the guests.",
+            "Providing the guests with requisite tableware, food and beverage items.",
+            "Clearing used dishes from the table.",
+            "Settling the customer\u2019s accounts as per procedures."
+        ],
+        "keycompetencies": [
+            "Knowledge of the menu, food and beverage served.",
+            "Well-versed with storage, service and upkeep procedure for cutlery, condiments and other accessories.",
+            "Proficient in maintaining personal hygiene at the service area.",
+            "Familiar with the organizations service style for the food & beverage outlet.",
+            "Knowledge of the details of items available on the menu especially the specials for the day.",
+            "Familiar with different kinds of cutlery, plates and tableware and ways to set them on the table/counter.",
+            "Proficient in preparation and serving techniques for a basic range of drinks including tea and coffee.",
+            "Familiar with typical food and beverage service styles and types of menu used in different hospitality contexts including buffet, tray, plate and silver service."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do",
+            "http://pmkvyofficial.org/ExploreSectorSkillCouncilDetail.aspx?SSC=MjU%3d"
+        ],
+        "training": [
+            "http://www.ihmsrinagar.org/index.php?option=com_content&view=article&id=245&Itemid=67"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA/BBM"
+            ],
+            "specializations": [
+                "Hospitality Management",
+                "Food and Beverage Service"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NIFT Delhi",
+                "HTMi Switzerland-India"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Food & Beverage Service Steward**",
+                "Food & Beverage Service Associate",
+                "Food & Beverage Service Manager",
+                "Restaurant Manager"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Food and Beverage Executive (CFBE)",
+                "provider": "Indian Institute of Hospitality",
+                "duration": 6,
+                "cost": 35000
+            },
+            {
+                "name": "Certified Hospitality Administrator (CHA)",
+                "provider": "Indian Institute of Hospitality",
+                "duration": 12,
+                "cost": 70000
+            },
+            {
+                "name": "Certified Food Safety Manager (CFSM)",
+                "provider": "National Restaurant Association of India",
+                "duration": 3,
+                "cost": 20000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Creativity",
+                "importance": "medium"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Food & Beverage Service Steward",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 250000,
+                    "max": 400000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Food & Beverage Service Steward",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 900000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Food & Beverage Service Steward",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 1800000
+                }
+            }
+        },
+        "sub_industry": "Food & Beverage Management"
+    },
+    {
+        "title": "General Manager, Lodging and Catering Services",
+        "level": "Management Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Organizing and supervising, within authority delegated, efficient utilization of resources in public or private organization or an establishment engaged in preparing and serving food beverages, etc. to the public.",
+            "Building a strong working relationship with the client.",
+            "Managing the catering contract.",
+            "Meeting the client's needs and the organisation\u2019s  financial targets.",
+            "Leading Food & Beverage team and setting standards.",
+            "Liaising with the client.",
+            "Monitoring the quality of the food and service.",
+            "Recruiting and training staff \u2013 depending on the type of contract."
+        ],
+        "keycompetencies": [
+            "Knowledge about preparation of food, drinks, beverages, etc..",
+            "Proficient with database server, systems, etc..",
+            "Ability to maintain the meeting recordings with various stakeholders.",
+            "Well-versed with company policies.",
+            "Ability to draft strategic plans for efficient running of lodging and catering services."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.wbut.ac.in/syllabus/Hotel_Mgnt_Syllabus.pdf"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "MBA",
+                "MCom"
+            ],
+            "specializations": [
+                "Hotel Management",
+                "Hospitality Management",
+                "Tourism Management",
+                "Computer Science",
+                "Information Technology"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NIT Delhi",
+                "Manipal University",
+                "Guru Gobind Singh Indraprastha University"
+            ]
+        },
+        "careerpath": [
+            [
+                "Waiter/Waitress",
+                "Staff Trainer",
+                "Supervisor",
+                "Manager, Lodging and Catering Service",
+                "**General Manager, Lodging and Catering Service**",
+                "Director, Lodging and Catering Service"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Hospitality Administrator (CHA)",
+                "provider": "Indian Institute of Hotel Management",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Hotel Administrator (CHA)",
+                "provider": "National Council for Hotel Management",
+                "duration": 6,
+                "cost": 20000
+            },
+            {
+                "name": "Certified Hospitality Professional (CHP)",
+                "provider": "Indian Institute of Hospitality",
+                "duration": 12,
+                "cost": 50000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Decision Making",
+                "importance": "high"
+            },
+            {
+                "competency": "Team Management",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "General Manager, Lodging and Catering Services",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior General Manager, Lodging and Catering Services",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead General Manager, Lodging and Catering Services",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Other"
+    },
+    {
+        "title": "Guest Relations Manager",
+        "level": "Management Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Ensuring that the guests have a smooth stay at the hotel .",
+            "Attending to guest's complaints, queries and requirements .",
+            "Training and supervising the front office staff."
+        ],
+        "keycompetencies": [
+            "Ability to engage with guests on arrival .",
+            "Proficient in assisting guests in selecting a room .",
+            "Well-versed with assisting the guests in the check-out process.",
+            "Ability to attend to the guest's queries, requirements and complaints .",
+            "Well-versed with training and supervising the front office staff .",
+            "Ability to speak English and one local or foreign language ."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/"
+        ],
+        "training": [
+            "http://www.ugc.ac.in/skill/curriculum/Tourism%20and%20Hospitality/43%20Curriculum%20-%20Guest%20Relations%20Manager.pdf"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA Tourism"
+            ],
+            "specializations": [
+                "Hospitality Management",
+                "Tourism Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NMIMS Mumbai",
+                "NIFT"
+            ]
+        },
+        "careerpath": [
+            [
+                "Front Office Executive",
+                "**Guest Relations Manager**",
+                "General Manager"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Hospitality Manager",
+                "provider": "Indian Hotel and Restaurant Association",
+                "duration": 3,
+                "cost": 15000
+            },
+            {
+                "name": "Certified Tourism Professional",
+                "provider": "Ministry of Tourism, Government of India",
+                "duration": 6,
+                "cost": 10000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Team Management",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Guest Relations Manager",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Guest Relations Manager",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Guest Relations Manager",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Hotel & Lodging Management"
+    },
+    {
+        "title": "Head Cook",
+        "level": "Mid Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 250000,
+                "max": 450000
+            },
+            "mid_level": {
+                "min": 550000,
+                "max": 900000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Planning meals, supervising and coordinating work of Cooks and other Kitchen Helpers in large hotels, restaurants or other establishments and aboard ships or railway trains.",
+            "Planning daily menu.",
+            "Estimating probable number of guests, popularity of various dishes and assigning price to items, etc..",
+            "Supervising preparation and cooking of food and instructing cooks for special dishes.",
+            "Concocting special dishes and inventing new recipes.",
+            "Testing cooked foods by tasting or smelling them.",
+            "Purchasing food supplies and kitchen equipment as necessary and checking them for quality,  quantity and supervising Cooks and other Kitchen Workers.",
+            "Hiring new Cooks."
+        ],
+        "keycompetencies": [
+            "Knowledge of various kinds of the menu.",
+            "Well-versed with the standards of sanitation, cleanliness and safety that needs to be maintained in the kitchen area.",
+            "Ability to develop standard recipes and techniques for food preparation and presentation.",
+            "Knowledge of various methods to minimize food and supply waste and theft.",
+            "Proficient in managing the team of Cooks, Helpers and other staff, etc..",
+            "Ability to create new dishes and presentation techniques for different dishes."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.infinitecourses.com/Course_Details.aspx?Course=Certificate-Course-In-Cookery&CourseID=8119"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Team Lead Cook": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "Associate Director of Kitchen": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "Head Cook": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "careerpath": [
+            [
+                "Commis Chef",
+                "Line Cook/Chef of Party",
+                "Sous Chef",
+                "**Head Cook/Executive Chef**"
+            ]
+        ],
+        "education": {
+            "degrees": [
+                "BSc Hospitality and Hotel Administration",
+                "BA Culinary Arts",
+                "BSc Food Technology"
+            ],
+            "specializations": [
+                "Food Service Management",
+                "Culinary Arts"
+            ],
+            "institutions": [
+                "Institute of Hotel Management, Aurangabad",
+                "ITM Business School, Navi Mumbai"
+            ]
+        },
+        "certifications": [
+            {
+                "name": "Food Safety Certification",
+                "provider": "National Restaurant Association of India",
+                "duration": 2,
+                "cost": 15000
+            },
+            {
+                "name": "HACCP Certification",
+                "provider": "Indian National Academy of Agricultural Research Management",
+                "duration": 3,
+                "cost": 20000
+            },
+            {
+                "name": "Food Production Certification",
+                "provider": "Indian Culinary Forum",
+                "duration": 6,
+                "cost": 25000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Leadership",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Head Cook",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 250000,
+                    "max": 450000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Head Cook",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 550000,
+                    "max": 900000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Head Cook",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Food & Beverage Management"
+    },
+    {
+        "title": "Hotel Concierge",
+        "level": "Entry Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Delivering baggage to and from hotel rooms, setting up sample room for Salesmen and performing related services as requested by guests or directed by authorities.",
+            "Transferring trunks, packages and other baggage to room or loading area manually or using hand truck.",
+            "Arranging for outgoing freight, express or mail shipment, computing charges, tagging articles and recording information such as addressee, addresser, carrier and charges on specified forms.",
+            "Setting up display tables, racks or shelves and assisting Salesmen in unpacking and arranging merchandise display.",
+            "Supplying guests with travel information such as transportation rates, routes and schedules.",
+            "Escorting incoming guests to rooms."
+        ],
+        "keycompetencies": [
+            "Knowledge of all the features offered by the hotel.",
+            "Ability to port the luggage of the customer to the room safely.",
+            "Knowledge of the local travelling options and charges.",
+            "Knowledge of the local places of importance and leisure."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.iihm.co.in/"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Concierge": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "Senior Concierge": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Lead Concierge": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Director of Guest Experience": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "careerpath": [
+            [
+                "Helper",
+                "**Hotel Concierge**",
+                "Hotel Clerk",
+                "Hotel Manager",
+                "General Manager"
+            ]
+        ],
+        "education": {
+            "degrees": [
+                "BA",
+                "BCom",
+                "BBA",
+                "BE/BTech",
+                "BCA",
+                "BSc IT"
+            ],
+            "specializations": [
+                "Hospitality Management",
+                "Tourism Management",
+                "Hotel Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NIFT",
+                "NID",
+                "IIM Ahmedabad",
+                "SRM University"
+            ]
+        },
+        "certifications": [
+            {
+                "name": "Certified Hospitality Manager",
+                "provider": "Indian Institute of Hospitality",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Tour Manager",
+                "provider": "Indian Institute of Tourism and Travel Management",
+                "duration": 6,
+                "cost": 30000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Hotel Concierge",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Hotel Concierge",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Hotel Concierge",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Hotel & Lodging Management"
+    },
+    {
+        "title": "Housekeeping Supervisor",
+        "level": "Entry Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Monitoring, guiding, directing and motivating subordinates to complete housekeeping tasks.",
+            "Supervising and reviewing the service which involves planning of equipment & supplies.",
+            "Preparing staff roster and briefing the staff.",
+            "Training and developing staff for housekeeping work.",
+            "'Collecting customer feedback."
+        ],
+        "keycompetencies": [
+            "Knowledge of servicing procedures and policies for carrying out housekeeping tasks in the workplace.",
+            "Proficient in allocating work to staff and monitor responsibilities to ensure standards are maintained.",
+            "Well-versed with monitoring the allocation and use of resources.",
+            "Knowledge of different cleaning agents, materials and tools used in the housekeeping service, their storage and preparation.",
+            "Proficient in taking a constant stock of housekeeping supplies.",
+            "Well-versed with monitoring the work of the housekeeping service.",
+            "Adept at identifying and suggesting possible ways to improve housekeeping services.",
+            "Well-versed with giving feedback to the staff in a way that motivates them.",
+            "Ability to deal with problems."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "https://www.youtube.com/watch?v=c6b_c6UtgsU"
+        ],
+        "skills": [
+            {}
+        ],
+        "certificates": {
+            "Certified Guestroom Attendant (CGA)": 20,
+            "Mold Awareness Specialist (MAS)": 40,
+            "House Cleaning Technician (HCT)": 40
+        },
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Housekeeper Supervisor": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Lead Housekeeper": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Assistant Director of Housekeeping": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "Associate Director of Housekeeping": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "Director of Housekeeping": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Executive Housekeeper": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "careerpath": [
+            [
+                "Housekeeping Attendant",
+                "Room Attendant",
+                "**Housekeeping Supervisor**",
+                "Housekeeping Manager",
+                "Executive Housekeeper",
+                "Hotel Manager"
+            ]
+        ],
+        "education": {
+            "degrees": [
+                "BSc HHA",
+                "BHM",
+                "B.Sc in Hospitality"
+            ],
+            "specializations": [
+                "Hospitality Management",
+                "Housekeeping Management"
+            ],
+            "institutions": [
+                "National Council of Hotel Management and Catering Technology",
+                "Institute of Hotel Management, Aurangabad"
+            ]
+        },
+        "certifications": [
+            {
+                "name": "Certified Housekeeper (CH)",
+                "provider": "Indian Institute of Hospitality",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Hospitality Supervisor (CHS)",
+                "provider": "Asia Pacific Institute of Management",
+                "duration": 6,
+                "cost": 30000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Adaptability",
+                "importance": "high"
+            },
+            {
+                "competency": "Attention to Detail",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Housekeeping Supervisor",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Housekeeping Supervisor",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Housekeeping Supervisor",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Hotel & Lodging Management"
+    },
+    {
+        "title": "Manager Fast Food Service",
+        "level": "Management Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Planning and organizing accommodation, catering and other hotel services.",
+            "Managing franchised or independent fast food or wholesale prepared food establishment.",
+            "Directing, coordinating and participating in preparation, cooking, wrapping or packing types of food served or prepared by establishment.",
+            "Collecting of monies from in-house or take-out customers or assembling food orders for wholesale customers.",
+            "Coordinating activities of workers engaged in keeping business records, collecting and paying accounts, ordering or purchasing supplies and delivering of foodstuffs to wholesale or retail customers.",
+            "Interviewing, hiring and training personnel."
+        ],
+        "keycompetencies": [
+            "Proficient in ensuring customer satisfaction.",
+            "Knowledge of various food items that are served in the establishment.",
+            "Well-versed with database server.",
+            "Proficient in managing staff and disciplining them.",
+            "Well-versed with preparation process of servings.",
+            "Proficient in making strategic decisions in case of delays.",
+            "Knowledge of record-keeping."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.wbut.ac.in/syllabus/Hotel_Mgnt_Syllabus.pdf"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BBA",
+                "BHM"
+            ],
+            "specializations": [
+                "Hotel Management",
+                "Food Technology",
+                "Food Science",
+                "Hospitality Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Manipal University",
+                "Symbiosis International University"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Manager, Fast Food Service**",
+                "General Manager",
+                "Food & Beverage Director"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Food Safety Manager (CFSM)",
+                "provider": "Indian Institute of Food Safety",
+                "duration": 3,
+                "cost": 15000
+            },
+            {
+                "name": "Certified Hospitality Administrator (CHA)",
+                "provider": "Hospitality Management Institute",
+                "duration": 6,
+                "cost": 30000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Leadership",
+                "importance": "high"
+            },
+            {
+                "competency": "Teamwork",
+                "importance": "medium"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Manager Fast Food Service",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Manager Fast Food Service",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Manager Fast Food Service",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Food & Beverage Management"
+    },
+    {
+        "title": "Manager Lodging and Catering Services",
+        "level": "Management Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Managing the food and beverage provision for functions and events.",
+            "Supervising catering and waiting staff at functions.",
+            "Planning menus in consultation with chefs.",
+            "Recruiting and training permanent and temporary staff.",
+            "Organizing, leading and motivating the catering team.",
+            "Ensuring health and safety regulations are strictly observed.",
+            "Budgeting and establishing financial targets and forecasts.",
+            "Monitoring the quality of the products and services provided.",
+            "Keeping financial and administrative records.",
+            "Managing the payroll and monitoring spending levels.",
+            "Maintaining stock levels and ordering new supplies as required.",
+            "Interacting with customers.",
+            "Negotiating contracts with customers, assessing their requirements and ensuring they are satisfied with the service delivered (in contract catering).",
+            "Ensuring compliance with all fire, licensing, and employment regulations.",
+            "Maximizing sales and meeting profit and financial expectations."
+        ],
+        "keycompetencies": [
+            "Proficient in ensuring customer satisfaction.",
+            "Knowledge of various food items that are served in the establishment.",
+            "Well-versed with database server.",
+            "Proficient in managing staff and disciplining them.",
+            "Well-versed with preparation process of servings.",
+            "Proficient in making strategic decisions in case of delays.",
+            "Knowledge of record-keeping."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.wbut.ac.in/syllabus/Hotel_Mgnt_Syllabus.pdf"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BBA",
+                "B.Com (Hons)",
+                "BHMCT"
+            ],
+            "specializations": [
+                "Hospitality Management",
+                "Tourism Management"
+            ],
+            "institutions": [
+                "Indian Institute of Hotel Management",
+                "National Council of Hotel Management"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Manager, Lodging and Catering Services**",
+                "Senior Manager",
+                "General Manager"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Hospitality Administrator (CHA)",
+                "provider": "Indian Hotel and Restaurant Association",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Event Planner (CEP)",
+                "provider": "Event and Convention Management Association",
+                "duration": 3,
+                "cost": 15000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Manager Lodging and Catering Services",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Manager Lodging and Catering Services",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Manager Lodging and Catering Services",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Hotel & Lodging Management"
+    },
+    {
+        "title": "Meet and Greet Officer",
+        "level": "Mid Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Meeting the customers or guests at the terminal or designated place.",
+            "Greeting the customers and arranging for transferring them to an agreed destination.",
+            "Handling guest queries and complaints."
+        ],
+        "keycompetencies": [
+            "Familiar with local maps and routes.",
+            "Knowledge of major airlines, trains, national bus/coach operating companies.",
+            "Knowledge of foreign exchange rules and where the currencies can be exchanged.",
+            "Basic knowledge of permits and checks required for the customer.",
+            "Skilled in using computer for checking itinerary, schedules, etc..",
+            "Skilled in using GPS for route mapping."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do",
+            "http://pmkvyofficial.org"
+        ],
+        "training": [
+            "http://www.ihmsrinagar.org/index.php?option=com_content&view=article&id=245&Itemid=67"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA/BBM"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Hospitality Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "University of Delhi",
+                "Manipal University"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Meet and Greet Officer**",
+                "Team Leader",
+                "Assistant Front Office Manager",
+                "Front Office Manager"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Customer Service Representative",
+                "provider": "Indian Institute of Customer Service",
+                "duration": 6,
+                "cost": 20000
+            },
+            {
+                "name": "Certified Travel Agent",
+                "provider": "Indian Association of Tour Operators",
+                "duration": 3,
+                "cost": 10000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Meet and Greet Officer",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Meet and Greet Officer",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Meet and Greet Officer",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Event & Hospitality Planning"
+    },
+    {
+        "title": "Meeting, Conference and Event Planner",
+        "level": "Mid Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 250000,
+                "max": 450000
+            },
+            "mid_level": {
+                "min": 550000,
+                "max": 950000
+            },
+            "senior_level": {
+                "min": 1100000,
+                "max": 1800000
+            }
+        },
+        "description": [
+            "Interacting with the customer to understand the type of event, meeting or conference being planned.",
+            "Co-ordinating with relevant departments and service providers for organizing the event."
+        ],
+        "keycompetencies": [
+            "Familiar with different kinds of conferences that can be organized.",
+            "Ability to organize any type of meeting and conference.",
+            "Knowledge of requirements and planning process for outdoor event set-ups, catering, etc..",
+            "Skilled in organizing entertainment, film, and fashion shows, etc..",
+            "Knowledge of customer billing procedures ."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://singhaniauniversity.co.in/downloads/Syllabus%20of%20Diploma%20and%20PG%20Diploma%20in%20Event%20Management.pdf"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Hospitality Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "University of Delhi",
+                "Manipal University",
+                "Symbiosis International University"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Meeting, Conference and Event Planner**",
+                "Team Leader",
+                "Event Manager"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Meeting Professional (CMP)",
+                "provider": "International Live Events Association (ILEA) India",
+                "duration": 6,
+                "cost": 150000
+            },
+            {
+                "name": "Certified Event Planner (CEP)",
+                "provider": "International Live Events Association (ILEA) India",
+                "duration": 6,
+                "cost": 150000
+            },
+            {
+                "name": "Certified Hospitality Administrator (CHA)",
+                "provider": "Indian Federation of Hospitality Academies (IFHA)",
+                "duration": 6,
+                "cost": 100000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication",
+                "importance": "high"
+            },
+            {
+                "competency": "Leadership",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Meeting, Conference and Event Planner",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 250000,
+                    "max": 450000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Meeting, Conference and Event Planner",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 550000,
+                    "max": 950000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Meeting, Conference and Event Planner",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1100000,
+                    "max": 1800000
+                }
+            }
+        },
+        "sub_industry": "Other"
+    },
+    {
+        "title": "Receptionist (Hotel)",
+        "level": "Entry Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Receiving phone calls, messages, mails, dak, etc..",
+            "Attending to customer\u2019s enquiries.",
+            "Assigning rooms after consulting register for availability of room and looking after requirement of patrons.",
+            "Settling terms and allotting required accommodation if available to customers.",
+            "Requesting customers to fill and sign register to establish identity, time of arrival and expected departure.",
+            "Maintaining hotel 'Board' up-to-date showing name of occupants, etc..",
+            "Maintaining hotel record up-to-date showing total number of rooms already occupied, rooms booked or reserved to show correct position of accommodation.",
+            "Giving information to House Keepers, dining section and kitchen departments regarding arrival of new-customers and their requirements.",
+            "Supplying details of services rendered to customers to concerned departments for preparation of bill.",
+            "Presenting the bill to customers and collecting receivables."
+        ],
+        "keycompetencies": [
+            "Knowledge of Microsoft Office suite.",
+            "Familiarity with database server.",
+            "Ability to troubleshoot while ensuring customer requirements are met.",
+            "Ability to ensure standards of services are met by team members.",
+            "Equipped to provide necessary supply to customers.",
+            "Efficiency and excellent organisational skills.",
+            "Knowledge of nearest tourist destinations.",
+            "Knowledge of various tours and cab agencies.",
+            "Ability to make people feel at ease."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "www.wbut.ac.in/syllabus/Hotel_Mgnt_Syllabus.pdf"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Receptionist": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "Senior Receptionist": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Lead Receptionist": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Receptionist V": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Head Receptionist": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "careerpath": [
+            [
+                "**Receptionist (Hotel)**",
+                "Reporting Head",
+                "Administration Supervisor",
+                "Customer Service Manager"
+            ]
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BBA",
+                "BBM"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Hospitality Management",
+                "Tourism Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NMIMS Mumbai",
+                "Symbiosis International University"
+            ]
+        },
+        "certifications": [
+            {
+                "name": "Certified Hospitality Professional",
+                "provider": "Indian Institute of Hospitality",
+                "duration": 12,
+                "cost": 45000
+            },
+            {
+                "name": "Diploma in Hotel Management",
+                "provider": "National Council for Hotel Management",
+                "duration": 18,
+                "cost": 100000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Receptionist (Hotel)",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Receptionist (Hotel)",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Receptionist (Hotel)",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Hotel & Lodging Management"
+    },
+    {
+        "title": "Steward, Hotel",
+        "level": "Entry Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Supervising work of dining room Waiters, Pantryman and Room Service Waiters.",
+            "Ensuring that guests are served promptly and courteously in the dining room.",
+            "Receiving customers in dining hall and escorting them to tables.",
+            "Obtaining orders from customers.",
+            "Ensuring that food is served promptly by Waiters.",
+            "Visiting rooms, halls and other areas to ensure that they are kept clean and tidy.",
+            "Ensuring that glass, china and silver wares are in good order.",
+            "Preparing dining halls for banquets and special occasions.",
+            "Decorating them with flower vases.",
+            "Arranging tables and chairs in a pleasing manner.",
+            "Keeping record of any breakage of crockery or loss of cutlery.",
+            "Keeping kitchen equipment, crockery, cutlery etc. under his charge.",
+            "Issuing crockery as needed."
+        ],
+        "keycompetencies": [
+            "Proficient in managing the eating arrangements of staff or service at a hotel.",
+            "Efficient in offering remarkable guest service.",
+            "Competent in ensuring company and department standards are followed.",
+            "Competent in ensuring all equipment is working.",
+            "Equipped to maintain a clean environment.",
+            "Proficient in supervising and reviewing banquet facility setup.",
+            "Ability to purchase food supplies and kitchen equipment.",
+            "Ability to check supplies for quality and quantity."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.ihmsrinagar.org/index.php?option=com_content&view=article&id=245&Itemid=67"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA/BBM",
+                "BCom"
+            ],
+            "specializations": [
+                "Hospitality Management",
+                "Hotel Management",
+                "Tourism Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Manipal University",
+                "Amity University"
+            ]
+        },
+        "careerpath": [
+            [
+                "Trainee",
+                "**Steward, Hotel**",
+                "Head Steward, Hotel",
+                "Hotel Manager"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "HACCP Certification",
+                "provider": "National Institute of Food Technology",
+                "duration": 3,
+                "cost": 15000
+            },
+            {
+                "name": "Food Safety Certification",
+                "provider": "Indian Institute of Food Processing Technology",
+                "duration": 2,
+                "cost": 12000
+            },
+            {
+                "name": "Hospitality Management Certification",
+                "provider": "Indian Institute of Hospitality Management",
+                "duration": 6,
+                "cost": 30000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication Skills",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Steward, Hotel",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Steward, Hotel",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Steward, Hotel",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Other"
+    },
+    {
+        "title": "Ticketing Consultant",
+        "level": "Mid Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Interacting with the customers, understanding their purpose and mode of travel and any specific requirements.",
+            "Booking tickets for the various kinds of travel plans of walk-in, online or another agent\u2019s customers.",
+            "Assisting the customers on most optimum travel plan based on desired travel dates and destinations."
+        ],
+        "keycompetencies": [
+            "Familiar with ticketing methods and processes for every travel mode.",
+            "Knowledge of transport schedule and timings.",
+            "Knowledge of documents required for ticketing and other requirements.",
+            "Knowledge of different kinds of travel modes such as airlines, railways, bus cab and cruise and their operations."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.ihmsrinagar.org/index.php?option=com_content&view=article&id=245&Itemid=67"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {
+                "Consultant": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Senior Consultant": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "Lead Consultant": [
+                    5,
+                    7
+                ]
+            },
+            {
+                "Principal Consultant": [
+                    8,
+                    13
+                ]
+            },
+            {
+                "Senior Principal Consultant": [
+                    8,
+                    13
+                ]
+            }
+        ],
+        "careerpath": [
+            [
+                "**Ticketing Consultant**",
+                "Ticketing Supervisor ",
+                "Ticketing Manager "
+            ]
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "MBA",
+                "MCom"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Travel and Tourism Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "National Tourism Academy",
+                "Institute of Hotel Management"
+            ]
+        },
+        "certifications": [
+            {
+                "name": "Certified Tour Operations Manager (CTOM)",
+                "provider": "Indian Institute of Tourism and Travel Management",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Travel Agent (CTA)",
+                "provider": "All India Federation of Tourism and Associated Services",
+                "duration": 3,
+                "cost": 15000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Communication",
+                "importance": "high"
+            },
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Ticketing Consultant",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Ticketing Consultant",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Ticketing Consultant",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Travel & Tourism Services"
+    },
+    {
+        "title": "Tourist Guide",
+        "level": "Entry Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Attending to customers enquiries.",
+            "Guiding tourists and visitors to places of interest and explaining historical background and importance of the site.",
+            "Accompanying tourists on their excursions and around places of tourist interest and explaining historical, cultural, social, religious and architectural significance of monuments.",
+            "Answering questions of tourists relating to various economic and social aspects of life or people.",
+            "Assisting tourists in shopping.",
+            "Acting as an interpreter to help tourists converse with shopkeepers, hoteliers, etc.."
+        ],
+        "keycompetencies": [
+            "Knowledge of famous tourist destinations.",
+            "In-depth knowledge of various agencies like catering, accommodation, transport, excursions, etc..",
+            "Ability to handle multi-cultural and multi-lingual clientele."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do",
+            "http://pmkvyofficial.org/ExploreSectorSkillCouncilDetail.aspx?SSC=MjU%3d"
+        ],
+        "training": [
+            "http://dget.nic.in/upload/uploadfiles/files/List%20of%20Designated%20Trades%20under%20the%20Apprentices%20Act%201961/Tourist%20Guide.pdf"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA",
+                "MA"
+            ],
+            "specializations": [
+                "Tourism Management",
+                "Hospitality Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NIFT Delhi",
+                "IIM Ahmedabad"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Tour Guide**",
+                "Specialist Guide",
+                "Tour Manager",
+                "Tour Director",
+                "Tour Leader",
+                "Operations Manager",
+                "Product Manager",
+                "Tourism Manager"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Tourist Guide (CTG)",
+                "provider": "Indian Institute of Tourism and Travel Management (IITTM)",
+                "duration": 3,
+                "cost": 15000
+            },
+            {
+                "name": "Certified Destination Management Specialist (CDMS)",
+                "provider": "Indian Federation of Tour Operators (IFTO)",
+                "duration": 6,
+                "cost": 25000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication Skills",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Tourist Guide",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Tourist Guide",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Tourist Guide",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Travel & Tourism Services"
+    },
+    {
+        "title": "Travel Agent",
+        "level": "Entry Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 250000,
+                "max": 450000
+            },
+            "mid_level": {
+                "min": 550000,
+                "max": 900000
+            },
+            "senior_level": {
+                "min": 1100000,
+                "max": 1800000
+            }
+        },
+        "description": [
+            "Planning travels, providing related information and arranging accommodation, itinerary and other facilities for tourists, officials, businessmen and educational or other parties.",
+            "Receiving information from persons seeking help and providing necessary facilities.",
+            "Answering inquiries, offering suggestions and providing descriptive literature road maps etc..",
+            "Discussing routes, time schedules, baggage limits, rates and types of accommodation with patrons.",
+            "Assisting patrons to complete travel forms, visas and other official and business transaction pertaining to travel.",
+            "Planning itinerary and making travel, baggage handling, passage reservations, accommodation and other arrangements as sought within available funds.",
+            "Delivering travel and reservation tickets and connected papers to patrons  informing them of the arrangements made and collecting receivables."
+        ],
+        "keycompetencies": [
+            "Proficient in operating database server.",
+            "Well-versed with ticket booking and visa process.",
+            "Knowledge of various tours and cab agencies.",
+            "Knowledge of nearest tourist destinations."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.wbut.ac.in/syllabus/Hotel_Mgnt_Syllabus.pdf"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BTech",
+                "BE",
+                "BCA",
+                "BSc IT",
+                "MBA"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Hospitality Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Jamia Millia Islamia",
+                "NIT Delhi"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Tour Guide**",
+                "Specialist Guide",
+                "Tour Manager",
+                "Tour Director",
+                "Tour Leader",
+                "Operations Manager",
+                "Product Manager",
+                "Tourism Manager"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Travel Agent (CTA)",
+                "provider": "Indian Institute of Tourism and Travel Management (IITTM)",
+                "duration": 3,
+                "cost": 15000
+            },
+            {
+                "name": "Certified Tour Manager (CTM)",
+                "provider": "Tourism and Travel Council of India (TTCI)",
+                "duration": 6,
+                "cost": 20000
+            },
+            {
+                "name": "Certified Destination Wedding Specialist (CDWS)",
+                "provider": "Wedding Planning Institute of India (WPII)",
+                "duration": 9,
+                "cost": 30000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Time Management",
+                "importance": "medium"
+            },
+            {
+                "competency": "Communication",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Travel Agent",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 250000,
+                    "max": 450000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Travel Agent",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 550000,
+                    "max": 900000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Travel Agent",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1100000,
+                    "max": 1800000
+                }
+            }
+        },
+        "sub_industry": "Travel & Tourism Services"
+    },
+    {
+        "title": "Travel Consultant",
+        "level": "Mid Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Preparing and organizing holiday tours packages for inbound, outbound and domestic tourists and travellers, both, for retail and corporate customers.",
+            "Achieving customer satisfaction as per company\u2019s standards."
+        ],
+        "keycompetencies": [
+            "Knowledge of travel and tourism related products and services.",
+            "Skilled in managing service providers and customers.",
+            "Knowledge of different kinds of tour packages that may be offered.",
+            "Knowledge of local, domestic and global destinations and related travel information.",
+            "Knowledge of standard procedures and rules to be followed."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.wbut.ac.in/syllabus/Hotel_Mgnt_Syllabus.pdf",
+            "https://targetstudy.com/diploma-courses-in-india.html"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA in Hospitality Management",
+                "BA in Tourism"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Hospitality Management",
+                "Tourism"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NIFT",
+                "Indian Institute of Tourism and Travel Management (IITTM)"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Travel Consultant**",
+                "Travel Senior Consultant ",
+                "Manager Travel Operations "
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Travel Agent (CTA)",
+                "provider": "International Air Transport Association (IATA)",
+                "duration": 3,
+                "cost": 15000
+            },
+            {
+                "name": "Certified Destination Wedding Specialist (CDWS)",
+                "provider": "Destination Wedding Association of India (DWAI)",
+                "duration": 2,
+                "cost": 10000
+            },
+            {
+                "name": "Certified Hotel Administrator (CHA)",
+                "provider": "Hotel Association of India (HAI)",
+                "duration": 4,
+                "cost": 20000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Travel Consultant",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Travel Consultant",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Travel Consultant",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Travel & Tourism Services"
+    },
+    {
+        "title": "Travel Consultants & Organisers",
+        "level": "Mid Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Providing literature and information to clients concerning local, interstate and international tours, travel routes, accommodation, local customs, fares, and travel regulations, etc..",
+            "Discussing client requirements and advise on suitable options.",
+            "Planning, preparing and costing itineraries (travel plans) for clients.",
+            "Making travel, accommodation and related bookings.",
+            "Confirming bookings and notifying clients of luggage limits and insurance, medical, passport, visa and currency requirements.",
+            "Issuing tickets for travel, accommodation vouchers and all relevant documentation.",
+            "Collecting payments and maintaining records of transactions.",
+            "Assisting with changes to travel arrangements and bookings where required."
+        ],
+        "keycompetencies": [
+            "Well-versed with various tour packages.",
+            "Knowledge of nearby tourist destinations.",
+            "Proficient in designing itinerary according to customers\u2019 need.",
+            "Knowledge of visa procedures and documentation.",
+            "Equipped to calculate tour cost as per the itinerary.",
+            "Knowledge of currencies and their exchange policies."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "For further guidance, contact your nearest Common Service Centre or Contact NCS Call Centre (Toll Free Number: 1800-425-1514)"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BA",
+                "BCom"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Hospitality Management",
+                "Tourism Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "Indian Institute of Tourism and Travel Management (IITTM)",
+                "National Council of Hotel Management and Catering Technology (NCHMCT)"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Travel Consultant and Organisers**",
+                "Sales Representative",
+                "Marketing Coordinator"
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Travel Associate (CTA)",
+                "provider": "International Air Transport Association (IATA)",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Tour Operations Specialist (CTOS)",
+                "provider": "National Tour Operators Association of India (NTOAI)",
+                "duration": 6,
+                "cost": 20000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Travel Consultants & Organisers",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Travel Consultants & Organisers",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Travel Consultants & Organisers",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Travel & Tourism Services"
+    },
+    {
+        "title": "Travel Insurance Executive",
+        "level": "Entry Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 300000,
+                "max": 500000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1200000,
+                "max": 2000000
+            }
+        },
+        "description": [
+            "Understanding customers\u2019 travel needs and the risks involved.",
+            "Preparing documentation, co-ordinating with the insurance agents and delivering the policy to customer."
+        ],
+        "keycompetencies": [
+            "Knowledge of all the norms under Insurance Regulatory Authority of India (IRDA).",
+            "Knowledge of different types of travel insurance companies and agents.",
+            "Skilled in processing insurance claims.",
+            "Knowledge of different types of travel policies.",
+            "Knowledge of international travel and safety norms."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.wbut.ac.in/syllabus/Hotel_Mgnt_Syllabus.pdf",
+            "https://targetstudy.com/diploma-courses-in-india.html"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "MBA"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Finance",
+                "Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NITTTR Chennai",
+                "Indian Institute of Tourism and Travel Management"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Travel Insurance Executive**",
+                "Travel Insurance Senior Executive ",
+                "Travel Insurance Manager "
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Travel Insurance Professional (CTIP)",
+                "provider": "Insurance Institute of India",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Risk Management Professional (CRM)",
+                "provider": "Indian Institute of Risk Management",
+                "duration": 6,
+                "cost": 20000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Problem Solving",
+                "importance": "high"
+            },
+            {
+                "competency": "Communication Skills",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Travel Insurance Executive",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 300000,
+                    "max": 500000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Travel Insurance Executive",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Travel Insurance Executive",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1200000,
+                    "max": 2000000
+                }
+            }
+        },
+        "sub_industry": "Travel & Tourism Services"
+    },
+    {
+        "title": "Visa Assistant Consultant",
+        "level": "Mid Level",
+        "industry": "Tourism and Hospitality",
+        "salary": {
+            "entry_level": {
+                "min": 250000,
+                "max": 400000
+            },
+            "mid_level": {
+                "min": 600000,
+                "max": 1000000
+            },
+            "senior_level": {
+                "min": 1500000,
+                "max": 2500000
+            }
+        },
+        "description": [
+            "Assisting customers in procuring visa for overseas travel.",
+            "Co-ordinating and maintaining standard relationship with the foreign country\u2019s mission to complete the process smoothly."
+        ],
+        "keycompetencies": [
+            "Knowledge of tourism and tourism related products and services.",
+            "Knowledge of rules of visa application for a particular country.",
+            "Skilled in procuring different kinds of visas i.e. business, tourist, work permit, family, etc..",
+            "Knowledge of short-term and long-term visas.",
+            "Knowledge of consulate and embassy rules and procedures."
+        ],
+        "scholarships": [
+            "https://scholarships.gov.in/main.do"
+        ],
+        "training": [
+            "http://www.wbut.ac.in/syllabus/Hotel_Mgnt_Syllabus.pdf",
+            "https://targetstudy.com/diploma-courses-in-india.html"
+        ],
+        "skills": [
+            {}
+        ],
+        "precareerpath": {},
+        "progressionpath": [
+            {}
+        ],
+        "education": {
+            "degrees": [
+                "BE/BTech",
+                "BCA",
+                "BSc IT",
+                "BBA"
+            ],
+            "specializations": [
+                "Computer Science",
+                "Information Technology",
+                "Hospitality Management"
+            ],
+            "institutions": [
+                "IIT Delhi",
+                "BITS Pilani",
+                "NMIMS Mumbai",
+                "GD Goenka University"
+            ]
+        },
+        "careerpath": [
+            [
+                "**Visa Assistance Consultant**",
+                "Visa Consultant "
+            ]
+        ],
+        "certifications": [
+            {
+                "name": "Certified Visa Assistant",
+                "provider": "Indian Institute of Tourism and Travel Management (IITTM)",
+                "duration": 6,
+                "cost": 25000
+            },
+            {
+                "name": "Certified Hospitality Professional",
+                "provider": "Hotel Management Association of India (HMAI)",
+                "duration": 12,
+                "cost": 50000
+            }
+        ],
+        "key_competencies": [
+            {
+                "competency": "Attention to Detail",
+                "importance": "high"
+            }
+        ],
+        "career_path": {
+            "entry_level": {
+                "title": "Visa Assistant Consultant",
+                "experience_years": 0,
+                "salary_range": {
+                    "min": 250000,
+                    "max": 400000
+                }
+            },
+            "mid_level": {
+                "title": "Senior Visa Assistant Consultant",
+                "experience_years": 3,
+                "salary_range": {
+                    "min": 600000,
+                    "max": 1000000
+                }
+            },
+            "senior_level": {
+                "title": "Lead Visa Assistant Consultant",
+                "experience_years": 6,
+                "salary_range": {
+                    "min": 1500000,
+                    "max": 2500000
+                }
+            }
+        },
+        "sub_industry": "Travel & Tourism Services"
+    }
+]

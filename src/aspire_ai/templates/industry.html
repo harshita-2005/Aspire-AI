@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ industry_name }} - Career Paths | Aspire AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        #career-roadmap h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-top: 1.25rem;
+            margin-bottom: 0.75rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+        }
+
+        #career-roadmap h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: #4f46e5;
+        }
+
+        #career-roadmap ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        #career-roadmap ol {
+            list-style-type: decimal;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        #career-roadmap p {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        #career-roadmap strong {
+            font-weight: 600;
+            color: #4f46e5;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+<div class="flex flex-col lg:flex-row min-h-screen">
+    <!-- Sidebar with gradient accent -->
+    <aside class="w-full lg:w-64 bg-white shadow-lg p-4 overflow-y-auto rounded-b-2xl lg:rounded-r-2xl border-r border-gray-200">
+        <h2 class="text-xl font-semibold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            Sub-Industries
+        </h2>
+        <div id="sub-industries-list" class="space-y-2"></div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-6 overflow-y-auto">
+        <h1 class="text-3xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            {{ industry_name }}
+        </h1>
+
+        <!-- Search Bar -->
+        <div class="mb-6 relative">
+            <input type="text" id="jobSearch" placeholder="Search job roles..."
+                   class="w-full px-5 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 pl-12">
+            <div class="absolute left-3 top-3 text-gray-400">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <!-- Job Roles Grid -->
+        <section>
+            <h2 class="text-xl font-semibold mb-4 text-gray-700">Job Roles</h2>
+            <div id="job-roles-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"></div>
+            <div class="mt-8 flex justify-center space-x-2" id="pagination-controls"></div>
+        </section>
+    </main>
+</div>
+
+<script src="{{ url_for('static', filename='js/industry-mapping.js') }}"></script>
+<script>
+    let allJobRoles = [];
+    let currentPage = 1;
+    const pageSize = 12;
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const encodedIndustry = "{{ industry_name }}";
+        const industry = encodedIndustry.replace(/&amp;/g, "&");
+        const subIndustries = industryMapping[industry] || [];
+        const subIndustriesList = document.getElementById('sub-industries-list');
+
+        if (subIndustries.length === 0) {
+            subIndustriesList.innerHTML = '<p class="text-red-500">No sub-industries found</p>';
+        } else {
+            subIndustries.forEach(subIndustry => {
+                const button = document.createElement('button');
+                button.className = 'w-full text-left px-4 py-2 rounded-lg hover:bg-blue-50 font-medium text-gray-700 transition-colors';
+                button.textContent = subIndustry;
+                button.onclick = () => loadJobRoles(subIndustry);
+                subIndustriesList.appendChild(button);
+            });
+            loadJobRoles(subIndustries[0]);
+        }
+
+        document.getElementById('jobSearch').addEventListener('input', () => {
+            currentPage = 1;
+            renderJobRoles();
+        });
+    });
+
+    function loadJobRoles(subIndustry) {
+        fetch(`/api/job_roles?sub_industry=${encodeURIComponent(subIndustry)}`)
+            .then(res => res.json())
+            .then(data => {
+                allJobRoles = data.job_roles || [];
+                currentPage = 1;
+                renderJobRoles();
+            })
+            .catch(() => {
+                document.getElementById('job-roles-container').innerHTML =
+                    '<p class="text-red-500 col-span-full">Error loading job roles</p>';
+            });
+    }
+
+    function renderJobRoles() {
+        const container = document.getElementById('job-roles-container');
+        const searchQuery = document.getElementById('jobSearch').value.toLowerCase();
+
+        const filteredRoles = allJobRoles.filter(role =>
+            role.toLowerCase().includes(searchQuery)
+        );
+
+        const totalPages = Math.ceil(filteredRoles.length / pageSize);
+        const start = (currentPage - 1) * pageSize;
+        const pageItems = filteredRoles.slice(start, start + pageSize);
+
+        container.innerHTML = '';
+
+        if (pageItems.length === 0) {
+            container.innerHTML = '<p class="text-gray-500 col-span-full text-center py-8">No job roles found</p>';
+            document.getElementById('pagination-controls').innerHTML = '';
+            return;
+        }
+
+        pageItems.forEach(role => {
+            const card = document.createElement('div');
+            card.className = 'bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition-all duration-300 flex flex-col justify-between border border-gray-100';
+            card.innerHTML = `
+                <div>
+                    <h3 class="text-lg font-semibold mb-3 text-gray-800">${role}</h3>
+                    <p class="text-gray-600 text-sm mb-4">Explore the career path and skills required for this role</p>
+                </div>
+                <a href="/roadmap/${encodeURIComponent(role)}" 
+                   class="inline-flex items-center justify-center px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg hover:from-blue-600 hover:to-purple-600 transition-all">
+                    <span>View Roadmap</span>
+                    <i class="fas fa-arrow-right ml-2 text-white"></i>
+                </a>
+            `;
+            container.appendChild(card);
+        });
+
+        renderPagination(totalPages);
+    }
+
+    function renderPagination(totalPages) {
+        const pagination = document.getElementById('pagination-controls');
+        pagination.className = 'mt-8 flex justify-center items-center space-x-2';
+        pagination.innerHTML = '';
+
+        if (totalPages <= 1) return;
+
+        const pageGroupSize = 5;
+        const currentGroup = Math.floor((currentPage - 1) / pageGroupSize);
+        const startPage = currentGroup * pageGroupSize + 1;
+        const endPage = Math.min(startPage + pageGroupSize - 1, totalPages);
+
+        // Previous group arrow
+        const prevGroupBtn = document.createElement('button');
+        prevGroupBtn.className = `px-3 py-1 rounded-lg ${startPage === 1 ? 'bg-gray-100 text-gray-400 cursor-not-allowed' : 'bg-white border hover:bg-blue-50'}`;
+        prevGroupBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
+        prevGroupBtn.disabled = startPage === 1;
+        prevGroupBtn.onclick = () => {
+            if (startPage > 1) {
+                currentPage = startPage - pageGroupSize;
+                renderJobRoles();
+            }
+        };
+        pagination.appendChild(prevGroupBtn);
+
+        // Page numbers
+        for (let i = startPage; i <= endPage; i++) {
+            const btn = document.createElement('button');
+            btn.className = `px-4 py-1 rounded-lg ${i === currentPage ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white' : 'bg-white border hover:bg-blue-50'}`;
+            btn.textContent = i;
+            btn.onclick = () => {
+                currentPage = i;
+                renderJobRoles();
+            };
+            pagination.appendChild(btn);
+        }
+
+        // Next group arrow
+        const nextGroupBtn = document.createElement('button');
+        nextGroupBtn.className = `px-3 py-1 rounded-lg ${endPage >= totalPages ? 'bg-gray-100 text-gray-400 cursor-not-allowed' : 'bg-white border hover:bg-blue-50'}`;
+        nextGroupBtn.innerHTML = '<i class="fas fa-chevron-right"></i>';
+        nextGroupBtn.disabled = endPage >= totalPages;
+        nextGroupBtn.onclick = () => {
+            if (endPage < totalPages) {
+                currentPage = startPage + pageGroupSize;
+                renderJobRoles();
+            }
+        };
+        pagination.appendChild(nextGroupBtn);
+
+        // Add page info
+        const pageInfo = document.createElement('span');
+        pageInfo.className = 'ml-4 text-sm text-gray-600';
+        pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+        pagination.appendChild(pageInfo);
+    }
+
+    async function showRoadmap(role) {
+        const roadmapDiv = document.getElementById('career-roadmap');
+        roadmapDiv.innerHTML = `
+            <div class="flex items-center justify-center py-8">
+                <div class="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-blue-500"></div>
+                <p class="ml-3 text-gray-600">Generating roadmap...</p>
+            </div>
+        `;
+
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 35000);
+
+            const cleanRole = role
+                .replace(/\//g, '-')
+                .replace(/,/g, '')
+                .trim();
+
+            const response = await fetch(`/api/roadmap/${encodeURIComponent(cleanRole)}`, {
+                signal: controller.signal,
+                headers: {
+                    'Accept': 'application/json',
+                    'Cache-Control': 'no-cache',
+                    'X-Original-Role': role
+                }
+            });
+            clearTimeout(timeoutId);
+
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`HTTP error! status: ${response.status}, message: ${errorText}`);
+            }
+
+            const data = await response.json();
+
+            if (data.error) {
+                roadmapDiv.innerHTML = `
+                    <div class="bg-red-50 border-l-4 border-red-500 p-4 rounded-lg">
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-exclamation-circle text-red-500 mr-2"></i>
+                            <h3 class="font-semibold text-red-700">Error: ${data.error}</h3>
+                        </div>
+                        ${data.details ? `<p class="text-gray-700 text-sm mb-2">Details: ${data.details}</p>` : ''}
+                    </div>
+                `;
+                return;
+            }
+
+            if (!data.markdown) {
+                throw new Error('No markdown content received from server');
+            }
+
+            const htmlContent = marked.parse(data.markdown);
+            roadmapDiv.innerHTML = `
+                <div class="prose max-w-none">
+                    <div class="mb-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg border border-blue-100">
+                        <h3 class="text-lg font-semibold text-blue-600 mb-1">Your ${role} Roadmap</h3>
+                        <p class="text-gray-700 text-sm">Essential skills and steps for success</p>
+                    </div>
+                    ${htmlContent}
+                </div>
+            `;
+        } catch (err) {
+            console.error('Error loading roadmap:', err);
+            let errorMessage = 'Failed to load roadmap';
+            let details = err.message || '';
+
+            if (err.name === 'AbortError') {
+                errorMessage = 'Request timed out';
+                details = 'Please try again.';
+            } else if (err.name === 'TypeError' && err.message.includes('Failed to fetch')) {
+                errorMessage = 'Network error';
+                details = 'Check your internet connection.';
+            }
+
+            roadmapDiv.innerHTML = `
+                <div class="bg-red-50 border-l-4 border-red-500 p-4 rounded-lg">
+                    <div class="flex items-center mb-2">
+                        <i class="fas fa-exclamation-circle text-red-500 mr-2"></i>
+                        <h3 class="font-semibold text-red-700">${errorMessage}</h3>
+                    </div>
+                    <p class="text-gray-700 text-sm mb-2">${details}</p>
+                    <button onclick="showRoadmap('${role.replace(/'/g, "\\'")}')" 
+                            class="flex items-center gap-1 bg-gradient-to-r from-blue-500 to-purple-500 text-white px-4 py-1.5 rounded-lg text-sm hover:from-blue-600 hover:to-purple-600">
+                        <i class="fas fa-sync-alt"></i>
+                        Try Again
+                    </button>
+                </div>
+            `;
+        }
+    }
+</script>
+</body>
+</html>

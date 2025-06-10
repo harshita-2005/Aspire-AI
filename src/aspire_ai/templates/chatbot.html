@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathly AI Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        .chat-message pre {
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+            margin: 0.5rem 0;
+        }
+        .chat-message code {
+            font-family: monospace;
+            background-color: #f1f1f1;
+            padding: 0.1rem 0.3rem;
+            border-radius: 0.25rem;
+        }
+        .chat-message ul, .chat-message ol {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .chat-message ul {
+            list-style-type: disc;
+        }
+        .chat-message ol {
+            list-style-type: decimal;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-white shadow-sm px-6 py-4 flex items-center justify-between">
+        <div class="flex items-center">
+            <a href="/success" class="text-2xl font-semibold text-blue-600 mr-4">Aspire Ai</a>
+            <h1 class="text-xl font-semibold text-gray-800">AI Career Assistant</h1>
+        </div>
+        <a href="/success" class="text-gray-600 hover:text-gray-800">
+            <i class="fas fa-times"></i>
+        </a>
+    </header>
+
+    <!-- Chat Container -->
+    <div class="flex-1 flex flex-col max-w-4xl mx-auto w-full p-4">
+        <!-- Welcome Message -->
+        <div class="bg-white rounded-lg shadow-sm p-6 mb-4">
+            <h2 class="text-lg font-semibold mb-2">👋 Welcome to Pathly AI Assistant!</h2>
+            <p class="text-gray-600">I can help you with:</p>
+            <ul class="mt-2 space-y-2">
+                <li class="flex items-center text-gray-700">
+                    <i class="fas fa-search text-blue-500 mr-2"></i>
+                    Career information and guidance
+                </li>
+                <li class="flex items-center text-gray-700">
+                    <i class="fas fa-graduation-cap text-blue-500 mr-2"></i>
+                    Educational requirements for different roles
+                </li>
+                <li class="flex items-center text-gray-700">
+                    <i class="fas fa-road text-blue-500 mr-2"></i>
+                    Career path recommendations
+                </li>
+                <li class="flex items-center text-gray-700">
+                    <i class="fas fa-lightbulb text-blue-500 mr-2"></i>
+                    Industry insights and trends
+                </li>
+            </ul>
+        </div>
+
+        <!-- Chat Messages -->
+        <div id="chat-messages" class="flex-1 space-y-4 overflow-y-auto mb-4">
+            <!-- Messages will be inserted here -->
+        </div>
+
+        <!-- Input Area -->
+        <div class="bg-white rounded-lg shadow-sm p-4 sticky bottom-0">
+            <form id="chat-form" class="flex gap-2">
+                <div class="flex-1 relative">
+                    <textarea 
+                        id="user-input"
+                        rows="1"
+                        class="w-full px-4 py-2 pr-10 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
+                        placeholder="Ask me anything about careers..."
+                    ></textarea>
+                    <div id="loading-indicator" class="hidden absolute right-3 top-2.5">
+                        <div class="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-500"></div>
+                    </div>
+                </div>
+                <button 
+                    type="submit"
+                    class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:opacity-50"
+                >
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chat-messages');
+        const chatForm = document.getElementById('chat-form');
+        const userInput = document.getElementById('user-input');
+        const loadingIndicator = document.getElementById('loading-indicator');
+        const submitButton = chatForm.querySelector('button[type="submit"]');
+
+        // Auto-resize textarea
+        userInput.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = Math.min(this.scrollHeight, 200) + 'px';
+        });
+
+        // Handle form submission
+        chatForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const message = userInput.value.trim();
+            if (!message) return;
+
+            // Disable input and button while processing
+            userInput.disabled = true;
+            submitButton.disabled = true;
+            
+            // Add user message
+            addMessage('user', message);
+            
+            // Clear input and reset height
+            userInput.value = '';
+            userInput.style.height = 'auto';
+
+            // Show loading indicator
+            loadingIndicator.classList.remove('hidden');
+            
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: message }),
+                });
+
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+
+                // Add AI response
+                addMessage('ai', data.response);
+            } catch (error) {
+                addMessage('error', 'Sorry, an error occurred while processing your request.');
+                console.error('Error:', error);
+            } finally {
+                // Re-enable input and button
+                userInput.disabled = false;
+                submitButton.disabled = false;
+                loadingIndicator.classList.add('hidden');
+                userInput.focus();
+            }
+        });
+
+        function addMessage(type, content) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `chat-message flex ${type === 'user' ? 'justify-end' : 'justify-start'}`;
+
+            const innerDiv = document.createElement('div');
+            innerDiv.className = `max-w-[80%] rounded-lg p-4 ${
+                type === 'user' 
+                    ? 'bg-blue-500 text-white' 
+                    : type === 'error'
+                        ? 'bg-red-100 text-red-700'
+                        : 'bg-white shadow-sm'
+            }`;
+
+            if (type === 'ai') {
+                // Parse markdown in AI responses
+                innerDiv.innerHTML = marked.parse(content);
+            } else {
+                innerDiv.textContent = content;
+            }
+
+            messageDiv.appendChild(innerDiv);
+            chatMessages.appendChild(messageDiv);
+            
+            // Scroll to bottom
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Handle Enter key to submit (Shift+Enter for new line)
+        userInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                chatForm.dispatchEvent(new Event('submit'));
+            }
+        });
+    </script>
+</body>
+</html> 

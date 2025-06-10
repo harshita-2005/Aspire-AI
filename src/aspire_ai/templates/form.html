@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="registration-container">
+            <a href="/" class="back-btn">
+                <i class="fas fa-arrow-left"></i>
+                Back to User Types
+            </a>
+
+            <div class="header">
+                <div class="user-icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <h1>Aspire Career Profile</h1>
+                <p class="subtitle">Please fill in your details</p>
+            </div>
+            <form id="registrationForm" class="registration-form" method="POST" action="{{ url_for('submit') }}">
+                <input type="hidden" id="user_type_input" name="user_type" value="{{ user_type }}">
+                <!-- Form fields will be dynamically added here -->
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Pass the user type to JavaScript
+        const userType = "{{ user_type }}";
+    </script>
+    <script src="{{ url_for('static', filename='js/form.js') }}"></script>
+</body>
+</html>
