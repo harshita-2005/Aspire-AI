@@ -44,7 +44,7 @@ cd Pathly
 
 2. Create and activate a virtual environment:
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
@@ -56,12 +56,12 @@ which pip
 ```
 Both should point to your `env` (or `venv`) directory, e.g.:
 ```
-/path/to/your/project/env/bin/python
-/path/to/your/project/env/bin/pip
+/path/to/your/project/venv/bin/python
+/path/to/your/project/venv/bin/pip
 ```
 If not, use:
 ```bash
-/path/to/your/project/env/bin/pip install <package>
+/path/to/your/project/venv/bin/pip install <package>
 ```
 This ensures all packages (like crewai) are installed in the virtual environment, not globally.
 
