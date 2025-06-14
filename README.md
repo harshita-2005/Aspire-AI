@@ -48,6 +48,23 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
+**Important:**
+After activating your virtual environment, always make sure you are using the correct pip and python. Run:
+```bash
+which python
+which pip
+```
+Both should point to your `env` (or `venv`) directory, e.g.:
+```
+/path/to/your/project/env/bin/python
+/path/to/your/project/env/bin/pip
+```
+If not, use:
+```bash
+/path/to/your/project/env/bin/pip install <package>
+```
+This ensures all packages (like crewai) are installed in the virtual environment, not globally.
+
 3. Install Python dependencies:
 ```bash
 pip install -r requirements.txt
@@ -74,32 +91,23 @@ After installing the main requirements, install CrewAI CLI and its dependencies 
    uv tool install crewai
    ```
 
-3. (If you see a PATH warning, update your shell):
+3. (If you see a Command 'uv' not found):
    ```bash
    export PATH="$HOME/.local/bin:$PATH"
-   uv tool update-shell
+   uv tool install crewai
    ```
-
+     pip install crewai
 4. Verify CrewAI CLI installation:
    ```bash
    uv tool list
    ```
    You should see `crewai` in the list.
 
-5. (Optional) Upgrade CrewAI CLI:
-   ```bash
-   uv tool install crewai --upgrade
-   ```
-
-6. (Optional) Install CrewAI as a Python package (for import in code):
+6. Install CrewAI as a Python package (for import in code):
    ```bash
    pip install crewai
    ```
 
-7. (Optional) Generate CrewAI project scaffolding:
-   ```bash
-   crewai init
-   ```
 
 ---
 
