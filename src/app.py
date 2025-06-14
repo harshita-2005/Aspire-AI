@@ -13,7 +13,7 @@ import time
 import logging
 # Add necessary directories to Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'aspire_ai'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'RAG ', 'src'))
+sys.path.append(os.path.join(os.path.dirname(__file__), 'RAG', 'src'))
 
 
 #   chain imports
@@ -313,7 +313,7 @@ def get_roadmap(job_role):
         os.environ["SELECTED_JOB_ROLE"] = clean_role
 
         # Construct the path using os.path.join
-        script_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src", "RAG ", "src", "roadmaps", "main.py")
+        script_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src", "RAG", "src", "roadmaps", "main.py")
         
         print(f"Current working directory: {os.getcwd()}")
         print(f"Script path: {script_path}")
