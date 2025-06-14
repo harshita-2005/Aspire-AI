@@ -111,14 +111,15 @@ After installing the main requirements, install CrewAI CLI and its dependencies 
 
 ---
 
-4. Set up environment variables:
-```bash
-cp .env.example .env
-```
-This command creates a .env file by copying the .env.example template.
-Then, open the .env file and add your own API keys.
+**Install Ollama:**
+Before pulling a model, you must install Ollama from [https://ollama.com/download](https://ollama.com/download) and ensure the `ollama` command is available in your terminal.
 
-5. Run the application:
+**Pull the required Ollama model:**
+After installing Ollama, download the required model (e.g., llama3.1) with:
+```bash
+ollama pull llama3.1
+```
+4. Run the application:
 ```bash
 cd src
 python3 app.py
