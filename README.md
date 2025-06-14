@@ -54,7 +54,11 @@ pip install -r requirements.txt
 ```
 
 4. Set up environment variables:
-Create a `.env` file in the root directory with necessary configurations.
+```bash
+cp .env.example .env
+```
+This command creates a .env file by copying the .env.example template.
+Then, open the .env file and add your own API keys.
 
 5. Run the application:
 ```bash
