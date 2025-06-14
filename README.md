@@ -48,10 +48,60 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. Install dependencies:
+3. Install Python dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+## Install CrewAI CLI and Python Package (separately, in terminal)
+
+After installing the main requirements, install CrewAI CLI and its dependencies using the following commands in your terminal:
+
+1. Install UV (Universal Virtualenv/Package Manager):
+   - On macOS/Linux:
+     ```bash
+     curl -LsSf https://astral.sh/uv/install.sh | sh
+     ```
+   - On Windows (PowerShell):
+     ```powershell
+     powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+     ```
+
+2. Install CrewAI CLI:
+   ```bash
+   uv tool install crewai
+   ```
+
+3. (If you see a PATH warning, update your shell):
+   ```bash
+   export PATH="$HOME/.local/bin:$PATH"
+   uv tool update-shell
+   ```
+
+4. Verify CrewAI CLI installation:
+   ```bash
+   uv tool list
+   ```
+   You should see `crewai` in the list.
+
+5. (Optional) Upgrade CrewAI CLI:
+   ```bash
+   uv tool install crewai --upgrade
+   ```
+
+6. (Optional) Install CrewAI as a Python package (for import in code):
+   ```bash
+   pip install crewai
+   ```
+
+7. (Optional) Generate CrewAI project scaffolding:
+   ```bash
+   crewai init
+   ```
+
+---
 
 4. Set up environment variables:
 ```bash
@@ -85,4 +135,4 @@ python3 app.py
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.
